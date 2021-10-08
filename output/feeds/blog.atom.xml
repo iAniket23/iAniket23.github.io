@@ -1,5 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>My Cool Site - Blog</title><link href="/" rel="alternate"></link><link href="/feeds/blog.atom.xml" rel="self"></link><id>/</id><updated>2019-01-07T08:00:00-07:00</updated><entry><title>Schrodinger’s Cat Alive or Dead? or Both</title><link href="/schrodingers-cat-alive-or-dead-or-both.html" rel="alternate"></link><published>2019-01-07T08:00:00-07:00</published><updated>2019-01-07T08:00:00-07:00</updated><author><name>Aniket</name></author><id>tag:None,2019-01-07:/schrodingers-cat-alive-or-dead-or-both.html</id><summary type="html">&lt;p&gt;Austrian physicist Erwin Schrodinger in 1935 devised a thought experiment called Schrodinger’s Cat ( sometimes described as a paradox).Schrodinger thought of a cat in a steel box along with
+<feed xmlns="http://www.w3.org/2005/Atom"><title>My Cool Site - Blog</title><link href="/" rel="alternate"></link><link href="/feeds/blog.atom.xml" rel="self"></link><id>/</id><updated>2019-01-07T08:00:00-07:00</updated><entry><title>Schrodinger’s Cat Alive or Dead? or Both</title><link href="/schrodingers-cat-alive-or-dead-or-both.html" rel="alternate"></link><published>2019-01-07T08:00:00-07:00</published><updated>2019-01-07T08:00:00-07:00</updated><author><name>Aniket</name></author><id>tag:None,2019-01-07:/schrodingers-cat-alive-or-dead-or-both.html</id><summary type="html">&lt;p&gt;What happens if one evening you suddenly start hearing the sound of stars and planets? Well, it’s quite obvious that it won’t be pleasurable to hear such earth-shattering sounds coming from countless stars altogether.
+But it’s not true. Actually, we are constantly hearing the sound of the …&lt;/p&gt;</summary><content type="html">&lt;p&gt;What happens if one evening you suddenly start hearing the sound of stars and planets? Well, it’s quite obvious that it won’t be pleasurable to hear such earth-shattering sounds coming from countless stars altogether.
+But it’s not true. Actually, we are constantly hearing the sound of the universe. The reason why we don’t hear anything is that we don’t know what it’s like to not hear. The same way we are not able to feel the atmospheric pressure because we don’t know what it’s like to not feel. However, we can understand the rhythm and harmony of the universe with the help of mathematical equations.
+Music and Astronomy
+There is a significant connection between music and astronomy. Music illuminates the study of astronomy, while astronomy provides a context for understanding music.
+There is geometry in the humming of the strings, there is music in the spacing of the spheres
+Pythagoras
+Musica Universalis
+Musica Universalis is an ancient concept devised by Pythagoras ( most famous for his ‘Pythagoras theorem’) and his followers.
+It states that proportions in the movements of celestial bodies are in the form of music. This “music” is not usually thought to be literally audible, but a harmonic, mathematical or religious concept.One day Pythagoras listened to the sound of hammers coming from a forge. The sound produced by hammers were harmonious. Therefore, he examined the hammers and found that the hammers which were harmonious with each other shared a relationship in their respective weight, their weights were in a simple fraction. Thus, he concluded that 1:2 ratios produced an ‘octave’ with a higher pitch and different ratios produced different harmonies.
+Moreover, he stated that objects produce sound in motion. As planets and celestial bodies are in motion, therefore, they also produce sound resulting in a harmony called ” Music of Spheres”.
+As these sounds are continuously sounding, therefore, we don’t know how it feels to hear. Therefore we can’t distinguish it from our known idea of silence.
+Harmonic Law
+In 17th century, Kepler with the help of platonic geometry determined the distances between planets and refined harmonics of the universe which ultimately resulted in the Kepler’s 3rd law of Planetary motion ( also called as Harmonic Law)
+According to the law,
+The squares of the orbital periods of the planets around the Sun are proportional to the cubes of the orbital semi-major axes. Kepler’s third law provides an accurate description of the period and distance for a planet’s orbits about the sun. Additionally, the same law that describes the T2/R3ratio for the planets’ orbits about the sun also accurately describes the T2/R3 ratio for any satellite (whether a moon or a man-made satellite) about any planet.
+String Theory
+One of the main objective of Physics is to find a Single Theory which unifies all forces ( Gravity, Electromagnetism, Weak and Strong Nuclear force).
+In order to find the ” Theory of Everything ” a lot of interesting ideas and new theories came up. Some of the best theories till now are –
+String theory
+Loop Quantum Theory
+Casual Dynamic Triangulations
+Quantum Einstein Gravity
+Quantum Graphity
+Internal Relativity
+E8
+String Theory is probably the best known theory of everything. In string theory, quarks and electron are visualized as sub-microscopic “strings” that vibrate (much like on a musical instrument) rather than visualizing the smallest particles of matter as minuscule points.
+In other words, fundamental particles we observe are not actually particles at all, but tiny strings that only “look” like particles to scientific instruments because they are so small.
+From Pythagoras to string theory, surprisingly, everything indicates the strong connections between music and physics.
+We can convert the motion of planets into musical rhythm and harmony by speeding and bringing the orbital frequencies into human hearing range.
+The Musical K2–138
+K2–138 is one of the most musical solar systems ever found. It has 5 inner and 1 outer planet. The inner 5 planets are very close to 3:2 resonances (musicians call it’s a perfect 5th) and follow the tuning system designed by Pythagoras himself in which all notes are related by a perfect 5th and due to this simple pattern, each pair plays the interval of a perfect 5th (the first two notes of ‘Twinkle, Twinkle, little star’).&lt;/p&gt;</content><category term="Blog"></category></entry><entry><title>Schrodinger’s Cat Alive or Dead? or Both</title><link href="/schrodingers-cat-alive-or-dead-or-both.html" rel="alternate"></link><published>2019-01-07T08:00:00-07:00</published><updated>2019-01-07T08:00:00-07:00</updated><author><name>Aniket</name></author><id>tag:None,2019-01-07:/schrodingers-cat-alive-or-dead-or-both.html</id><summary type="html">&lt;p&gt;Austrian physicist Erwin Schrodinger in 1935 devised a thought experiment called Schrodinger’s Cat ( sometimes described as a paradox).Schrodinger thought of a cat in a steel box along with
 a Geiger counter,
 a vial of poison,
 a hammer,
@@ -20,4 +51,26 @@ Therefore scientist came upon with a theory called “quantum theory”. It desc
 The interesting thing is that, Quantum theory is based upon wave function. A wave function for a particle says that there’s some probability that particle can be in any allowed position. But you can’t necessarily say you know that it’s in a particular position without observing it.
 If you put an electron around the nucleus, it can have any of the allowed states or positions. Unless we look at it and know where it is.
 That’s what Schrodinger’s Cat signifies.
-In any physical system, without observation, you cannot say what something is doing. You have to say that it can be any of these things even if the probability is small.&lt;/p&gt;</content><category term="Blog"></category></entry></feed>
+In any physical system, without observation, you cannot say what something is doing. You have to say that it can be any of these things even if the probability is small.&lt;/p&gt;</content><category term="Blog"></category></entry><entry><title>Spooky Actions of an Atom!!! Entanglement?</title><link href="/spooky-actions-of-an-atom-entanglement.html" rel="alternate"></link><published>2019-01-07T08:00:00-07:00</published><updated>2019-01-07T08:00:00-07:00</updated><author><name>Aniket</name></author><id>tag:None,2019-01-07:/spooky-actions-of-an-atom-entanglement.html</id><summary type="html">&lt;p&gt;Quantum physics is radically different to the world as Newton’s laws described it, both conceptually and mathematically. Einstein very uneasy with the theory he helped found, leading him to believe that it was incomplete. This phenomena is Entanglement or spooky action of an atom.
+Entanglement is a physical phenomenon …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Quantum physics is radically different to the world as Newton’s laws described it, both conceptually and mathematically. Einstein very uneasy with the theory he helped found, leading him to believe that it was incomplete. This phenomena is Entanglement or spooky action of an atom.
+Entanglement is a physical phenomenon which occurs when pairs or groups of particles are generate, interact, or share spatial proximity.
+Measurements of physical properties such as
+position,
+momentum,
+spin,
+and polarization
+The particles at the time of measurement may be separated by arbitrarily large distances.
+It appears that one particle of an entangled pair “knows” what measurement has been performed on the other. Even though there is no known means for such information to be communicated between the particles.
+But Entanglement had some issues
+Imagine you have 2 identical bags. You put red color ball in one bag and blue color ball in the other. Now , its impossible to tell which bag contains blue ball and which one contains red ball. You randomly select a bag and sent it on moon.
+Now when you will open the bag which is with you you will immediately know which color ball is in the the other bag. But this seemed to violate the speed limit on the transmission of information implicit in the theory of relativity.
+But this seemed to violate the speed limit on the transmission of information implicit in the theory of relativity.
+Special relativity made the case for locality even stronger, as it introduced the cosmic speed limit, the speed of light. Nothing can propagate faster than light, be it a particle or information about someone measuring your entangled partner photon. Einstein did not like non-locality in physics, and dubbed this effect as “spooky action at a distance”.
+In 1935 Einstein, Boris Podolsky and Nathan Rosen published paper,“Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?”. According it, Entanglement can not cause a measurement on one particle to affect another further away. Instead, particles actually have well determined positions, velocities…
+However, wave function, and hidden variables gives an
+incomplete description of the reality.
+But it again poses some questions -
+“Was quantum mechanics an incomplete description of reality?”
+However, in 1964 John Bell published a paper titled “On the Einstein Podolosky Rosen Paradox” . He examined the consequences of hidden variable theories, as they had become known.
+His work found that such a theory could not be constructed and still give predictions consistent with quantum mechanics. In fact, he found out that hidden variable theories would even be in contradiction with special relativity.
+Since then, experiments have been in agreement with both the predictions of Bell’s work and those of quantum mechanics. Among those predictions is quantum entanglement, most important resource of the rising fields of quantum information and computing.&lt;/p&gt;</content><category term="Blog"></category></entry></feed>
