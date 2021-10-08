@@ -1,0 +1,21 @@
+Title: Schrodinger’s Cat Alive or Dead? or Both
+Date: 2019-01-07 8:00
+Category: Blog
+
+Austrian physicist Erwin Schrodinger in 1935 devised a thought experiment called Schrodinger’s Cat ( sometimes described as a paradox).Schrodinger thought of a cat in a steel box along with
+a Geiger counter,
+a vial of poison,
+a hammer,
+and a radioactive substance
+Geiger detects when the radioactive substance decays. It triggers the hammer to release the poison, which subsequently kills the cat.
+The radioactive decay is a random process, and there is no way to predict when it will happen. An observer doesn’t know whether the cat is alive or dead
+until he opens the box. The cat’s fate depend on the decaying of atom. Therefore cat is assumed to be “living and dead in equal parts until it is observed.” In other words, until the box was opened, the cat’s state is completely unknown. Therefore, the cat is considered to be both alive and dead at the same time until it is observed. If you put the cat in the box then there’s no way of saying what the cat is doing. Therefore you have to treat that it’s doing all possible things being living and dead at the same time.
+Immediately upon looking at the cat, an observer would know if the cat was alive or dead . The “superposition” of the cat (the idea that it was in both states ) would collapse into either the knowledge that “the cat is alive” or “the cat is dead,” but not both.
+Why Schrodinger said this ?
+Schrodinger said this to illustrate a point in quantum mechanics about the nature of wave particles. Scientists discovered in the late 1800’s and early 1900’s that , really tiny things didn’t obey Newton’s Laws.
+So the rules that we used to govern the motion of a ball or person or car, can’t explain how an electron or atom works.
+Therefore scientist came upon with a theory called “quantum theory”. It describe how subatomic particles like electrons and protons behave.
+The interesting thing is that, Quantum theory is based upon wave function. A wave function for a particle says that there’s some probability that particle can be in any allowed position. But you can’t necessarily say you know that it’s in a particular position without observing it.
+If you put an electron around the nucleus, it can have any of the allowed states or positions. Unless we look at it and know where it is.
+That’s what Schrodinger’s Cat signifies.
+In any physical system, without observation, you cannot say what something is doing. You have to say that it can be any of these things even if the probability is small.
