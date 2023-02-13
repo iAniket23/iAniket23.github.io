@@ -73,7 +73,7 @@
             top: 40px;
             left: 0;
             width: 100%;
-            height: 95%;
+            height: 90%;
             background-color: #1d1d1b;
             display: flex;
             flex-direction: column;
