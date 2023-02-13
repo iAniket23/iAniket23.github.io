@@ -80,6 +80,7 @@
             justify-content: center;
             align-items: center;
             transform: translateX(-100%);
+            z-index: 1;
         }
         .nav-links a{
             font-size: 1.5rem;
