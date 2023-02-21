@@ -11,7 +11,7 @@ div.img {
     background-size: contain;
     width: 80vw;
     height: 50vh;
-    border: 5px solid #555;
+  
     }
 
 </style>
