@@ -13,5 +13,12 @@
 </div>
 
 <style>
-
+    #home{
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+    }
+    #contact{
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+    }
 </style>

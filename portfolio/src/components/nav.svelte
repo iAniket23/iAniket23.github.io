@@ -12,13 +12,13 @@
             <a href="https://drive.google.com/file/d/1DfntPfRUI0IjXP2bnUuAsTMDysqyYOtH/view?usp=sharing">Resume</a>
             <a href="https://www.linkedin.com/in/ianiket23">LinkedIn</a>
             <a href="https://github.com/iAniket23">Github</a>
-            <a href="/contact">Contact</a>
+            <a href= '#contact' on:click|preventDefault={()=> scroll('#contact')}>Contact</a>
         </div>
     </nav>
 </main>
 
 <style>
-    *{  
+    *{  scroll-behavior: smooth;
         margin: 0;
         padding: 0;
         box-sizing: border-box;
@@ -27,6 +27,8 @@
         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     }
     nav {
+        width: 100%;
+        position: fixed;
         display: flex;
         padding: 1rem 1rem;
         background-color: #1d1d1b;
@@ -77,17 +79,18 @@
         }
         .nav-links{
             position: absolute;
-            top: 40px;
+            top: 68px;
             left: 0;
             width: 100%;
-            height: 90%;
+            height: 100vh;
             background-color: #1d1d1b;
             display: flex;
             flex-direction: column;
-            justify-content: center;
+            justify-content: top;
             align-items: center;
             transform: translateX(-100%);
             z-index: 1;
+            border: #ffffff 1px solid;
         }
         .nav-links a{
             font-size: 1.5rem;
