@@ -6,8 +6,3 @@
 
 <Nav/>
 <slot/>
-
-<style>
-
-
-</style>  

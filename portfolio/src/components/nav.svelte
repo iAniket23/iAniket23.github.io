@@ -1,17 +1,24 @@
+<script>
+    import { scroll } from 'svelte-scrollto';
+</script>
 <main>
     <nav>
         <input type="checkbox" id="checkbox_toggle" />
         <label for="checkbox_toggle" class="hamburger">&#9776;</label>
         <div class = "nav-links">
-            <a href="#Home">Home</a>
-            <a href="#About">About</a>
-            <a href="#Projects">Projects</a>
+            <a href= '#home' on:click|preventDefault={()=> scroll('#home')}>Home</a>
+            <a href="/project">Projects</a>
+            <a href="/about">About</a>
+            <a href="https://drive.google.com/file/d/1DfntPfRUI0IjXP2bnUuAsTMDysqyYOtH/view?usp=sharing">Resume</a>
+            <a href="https://www.linkedin.com/in/ianiket23">LinkedIn</a>
+            <a href="https://github.com/iAniket23">Github</a>
+            <a href="/contact">Contact</a>
         </div>
     </nav>
 </main>
 
 <style>
-    *{
+    *{  
         margin: 0;
         padding: 0;
         box-sizing: border-box;
@@ -61,7 +68,7 @@
         user-select: none;
     }
 
-    @media (max-width: 600px){
+    @media (max-width: 680px){
         nav{
             display: flex;
             flex-direction: column;

@@ -4,5 +4,11 @@
 
 </script>
 
-<MainText/>
-<Me/>
+<div id = "home">
+    <MainText/>
+    <Me/>
+</div>
+
+<style>
+
+</style>

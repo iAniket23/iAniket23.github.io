@@ -2,6 +2,7 @@
     <div class = "container">
         <h1 class = "first">Hey, I'm</h1>
         <h1 class = "second">Aniket.</h1>
+        <h1 class = "third">Full-Stack developer</h1>
       </div>
 </main>
 
@@ -32,6 +33,12 @@
     animation: 
         typing 3s steps(30, end),
         blink-caret .75s step-start infinite;
+}
+.third{
+    text-align: center;
+    font-size: 4vh;
+    margin: auto;
+    margin-bottom: 2%;
 }
 /* The typing effect */
 @keyframes typing {
