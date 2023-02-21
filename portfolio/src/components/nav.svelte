@@ -7,12 +7,13 @@
         <label for="checkbox_toggle" class="hamburger">&#9776;</label>
         <div class = "nav-links">
             <a href= '#home' on:click|preventDefault={()=> scroll('#home')}>Home</a>
-            <a href="/project">Projects</a>
-            <a href="/about">About</a>
+            <a href= '#about' on:click|preventDefault={()=> scroll('#about')}>About</a>
+            <a href= '#projects' on:click|preventDefault={()=> scroll('#projects')}>Projects</a>
+            <a href= '#contact' on:click|preventDefault={()=> scroll('#contact')}>Contact</a>
             <a href="https://drive.google.com/file/d/1DfntPfRUI0IjXP2bnUuAsTMDysqyYOtH/view?usp=sharing">Resume</a>
             <a href="https://www.linkedin.com/in/ianiket23">LinkedIn</a>
             <a href="https://github.com/iAniket23">Github</a>
-            <a href= '#contact' on:click|preventDefault={()=> scroll('#contact')}>Contact</a>
+            
         </div>
     </nav>
 </main>
