@@ -1,16 +1,15 @@
 <div class="img"></div>
 <style>
 *{
-    margin: 0;
-    padding: 0;
-    margin-bottom: 0%;
+    padding: 10;
+    margin: 0 auto;
     }
 div.img {
     background-image: url('img/port.gif');
-    background-position: bottom;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    width: 100vw;
+    width: 80vw;
     height: 50vh;
     }
 

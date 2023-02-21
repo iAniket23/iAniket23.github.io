@@ -16,7 +16,7 @@
 
 .first{
     text-align: center;
-    font-size: 10vw;
+    font-size: 10vh;
     margin-bottom: 0%;
     margin-top: 0%;
 }
@@ -26,7 +26,7 @@
     margin: 0 auto;
     overflow: hidden;
     color: orange;
-    font-size: 12vw;
+    font-size: 12vh;
     letter-spacing: 0;
     border-right: 0.1em solid orange;
     animation: 
