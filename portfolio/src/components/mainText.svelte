@@ -2,7 +2,7 @@
     <div class = "container">
         <h1 class = "first">Hey, I'm</h1>
         <h1 class = "second">Aniket.</h1>
-        <h1 class = "third">Full-Stack developer</h1>
+        <h1><span id = "third"></span></h1>
       </div>
 </main>
 
@@ -34,11 +34,24 @@
         typing 3s steps(30, end),
         blink-caret .75s step-start infinite;
 }
-.third{
+#third{
     text-align: center;
-    font-size: 4vh;
+    font-size: 5vh;
     margin: auto;
     margin-bottom: 2%;
+    color: #ffffff;
+}
+#third::after{
+  content:"";
+  animation: third 6s linear infinite;
+}
+@keyframes third {
+  0% { content:"Full-Stack Developer";}
+  20% { content: "Web Developer"; }
+  40% { content: "Entrepreneur"; }
+  60% { content: "Innovator"; }
+  80% { content: "Android Developer"; }
+  100% { content: "Full-Stack Developer"; }
 }
 /* The typing effect */
 @keyframes typing {

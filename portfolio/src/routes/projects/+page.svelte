@@ -7,6 +7,8 @@
 <style>
 
 .container{
+  padding-top: 12vh;
+  padding-bottom: 12vh;
   width: 100%;
   color: #ffffff;
   text-align: center;

@@ -6,10 +6,10 @@
         <input type="checkbox" id="checkbox_toggle" />
         <label for="checkbox_toggle" class="hamburger">&#9776;</label>
         <div class = "nav-links">
-            <a href= '#home' on:click|preventDefault={()=> scroll('#home')}>Home</a>
-            <a href= '#about' on:click|preventDefault={()=> scroll('#about')}>About</a>
-            <a href= '#projects' on:click|preventDefault={()=> scroll('#projects')}>Projects</a>
-            <a href= '#contact' on:click|preventDefault={()=> scroll('#contact')}>Contact</a>
+            <a href= '/'>Home</a>
+            <a href= '/#about' on:click|preventDefault={()=> scroll('/#about')}>About</a>
+            <a href= '/projects'>Projects</a>
+            <a href= '/#contact' on:click|preventDefault={()=> scroll('/#contact')}>Contact</a>
             <a href="https://drive.google.com/file/d/1DfntPfRUI0IjXP2bnUuAsTMDysqyYOtH/view?usp=sharing">Resume</a>
             <a href="https://www.linkedin.com/in/ianiket23">LinkedIn</a>
             <a href="https://github.com/iAniket23">Github</a>
@@ -77,10 +77,11 @@
             flex-direction: column;
             justify-content: center;
             align-items: flex-end;
+            padding: 0rem 0rem;
         }
         .nav-links{
             position: absolute;
-            top: 68px;
+            top: 38px;
             left: 0;
             width: 100%;
             height: 100vh;

@@ -18,12 +18,12 @@
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 .first{
+  color: #ffffff;
     text-decoration: none;
-    color: orange;
-}
+    border : 2px solid orange;}
 .first:hover{
+  color: orange;
     border : 2px solid white;
-    color: darkorange;
 }
 
 .second{
