@@ -28,26 +28,24 @@
     font-weight: bold;
 }
 .edit2{
-    color: #F5F5DC;
     font-weight: bold;
 }
 .linkGithub{
     color: #ffffff;
     text-decoration: none;
-    border : 2px solid orange;
 }
 .linkGithub:hover{
     color: orange;
-    border : 2px solid white;
+
 }
 .linkLinkedin{
     color: #ffffff;
     text-decoration: none;
-    border : 2px solid orange;
+   
 }
 .linkLinkedin:hover{
     color: orange;
-    border : 2px solid white;
+
 }
 .container{
   width: 100%;
