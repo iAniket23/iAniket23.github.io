@@ -1,4 +1,5 @@
 <script>
+    // @ts-ignore
     import { scroll } from 'svelte-scrollto';
 </script>
 <main>
@@ -19,7 +20,8 @@
 </main>
 
 <style>
-    *{  scroll-behavior: smooth;
+    *{  z-index: 1;
+        scroll-behavior: smooth;
         margin: 0;
         padding: 0;
         box-sizing: border-box;
