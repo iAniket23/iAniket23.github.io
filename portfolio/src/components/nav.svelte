@@ -20,12 +20,12 @@
 </main>
 
 <style>
-    *{  z-index: 1;
+    *{  z-index: 2;
         scroll-behavior: smooth;
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-        color: #ffffff;
+        color: white;
         font-size: 1.4rem;
         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     }
@@ -34,7 +34,9 @@
         position: fixed;
         display: flex;
         padding: 1rem 1rem;
-        background-color: #1d1d1b;
+        -webkit-backdrop-filter: blur(5px);
+        backdrop-filter: blur(5px);
+        background: rgba(0, 0, 0, 0.5);
         justify-content: flex-end;
     }
     .nav-links a{
@@ -79,7 +81,7 @@
             flex-direction: column;
             justify-content: center;
             align-items: flex-end;
-            padding: 0rem 0rem;
+            padding: 0rem 2rem;
         }
         .nav-links{
             position: absolute;
@@ -87,7 +89,7 @@
             left: 0;
             width: 100%;
             height: 100vh;
-            background-color: #1d1d1b;
+            background: rgba(0, 0, 0, 0.95);
             display: flex;
             flex-direction: column;
             justify-content: top;

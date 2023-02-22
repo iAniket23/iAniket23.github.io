@@ -10,7 +10,7 @@
 
 .container{
   width: 100%;
-  color: #ffffff;
+  color: black;
   text-align: center;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
@@ -39,7 +39,7 @@
     font-size: 5vh;
     margin: auto;
     margin-bottom: 2%;
-    color: #ffffff;
+    color: black
 }
 #third::after{
   content:"";

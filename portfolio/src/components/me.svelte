@@ -11,6 +11,7 @@ div.img {
     background-size: contain;
     width: 80vw;
     height: 50vh;
+    z-index: 1;
   
     }
 
