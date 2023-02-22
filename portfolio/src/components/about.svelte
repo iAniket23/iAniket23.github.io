@@ -68,22 +68,8 @@
     color: blue;
     font-size: 10vh;
     letter-spacing: 0;
-    border-right: 0.1em solid orange;
-    animation: 
-        typing 3s steps(30, end),
-        blink-caret .75s step-start infinite;
 }
 
-/* The typing effect */
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
-}
 
-/* The typewriter cursor effect */
-@keyframes blink-caret {
-  from, to { border-color: transparent}
-  50% { border-color: orange; }
-}
 
 </style>
