@@ -1,44 +1,14 @@
-<main>
-    <div class = "container">
-        <h1 class = "first">Projects</h1>
-      </div>
-</main>
+<script>
+  import Projects from "../../components/projects.svelte";
+</script>
+
+<div id = "projects">
+  <Projects />
+</div>
 
 <style>
-
-.container{
-  padding-top: 12vh;
-  padding-bottom: 12vh;
-  width: 100%;
-  color: #ffffff;
-  text-align: center;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-}
-
-.first{
-    text-align: center;
-    display: inline;
-    margin: 0 auto;
-    overflow: hidden;
-    color: orange;
-    font-size: 12vh;
-    letter-spacing: 0;
-    border-right: 0.1em solid orange;
-    animation: 
-        typing 3s steps(30, end),
-        blink-caret .75s step-start infinite;
-}
-
-/* The typing effect */
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
-}
-
-/* The typewriter cursor effect */
-@keyframes blink-caret {
-  from, to { border-color: transparent}
-  50% { border-color: orange; }
-}
-
+  #projects{
+    padding-top: 12vh;
+    padding-bottom: 12vh;
+  }
 </style>
