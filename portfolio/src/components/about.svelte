@@ -1,4 +1,4 @@
-<!-- <div class = "container">
+<div class = "container">
     <h1 class = "first">About</h1>
 </div>
 
@@ -12,6 +12,7 @@
 </main>
 
 <style>
+
 .info{
     text-align: justify;
     hyphens: auto;
@@ -20,16 +21,13 @@
     font-size: 3vh;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     color: black;
-    background: rgba(0, 0, 0, 0.5);
     padding: 0 25vw;
 }
 .edit{
     color: orange;
     font-weight: bold;
 }
-.edit2{
-    font-weight: bold;
-}
+
 .linkGithub{
     color: #ffffff;
     text-decoration: none;
@@ -48,28 +46,11 @@
 
 }
 
-.info {
-  border-top-left-radius: 37px 140px;
-  border-top-right-radius: 23px 130px;
-  border-bottom-left-radius: 110px 19px;
-  border-bottom-right-radius: 120px 24px;
-  display: block;
-  position: relative;
-  border: solid 3px orange;
-  padding: 15px 25px;
-  max-width: 70%;
-  width: 70%;
-  margin: auto;
-  transform: rotate(-1deg);
-  transition: all 0.13s ease-in;
-}
-
-
 .container{
-  width: 100%;
-  color: #ffffff;
-  text-align: center;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    width: 100%;
+    color: #ffffff;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     margin-bottom: 2%;
 }
 
@@ -99,4 +80,4 @@
   50% { border-color: orange; }
 }
 
-</style> -->
+</style>

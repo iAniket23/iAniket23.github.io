@@ -20,7 +20,7 @@
 </main>
 
 <style>
-    *{  z-index: 2;
+    *{
         scroll-behavior: smooth;
         margin: 0;
         padding: 0;

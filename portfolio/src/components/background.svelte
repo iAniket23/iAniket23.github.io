@@ -1,3 +1,4 @@
+
 <div class="area" >
     <ul class="circles">
             <li></li>
@@ -13,16 +14,23 @@
     </ul>
 </div >
 
+
+
 <style>
     *{
     margin: 0px;
     padding: 0px;
 }
 
-.circles{
+.area{
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoBAMAAAB+0KVeAAAAHlBMVEUAAABkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGSH0mEbAAAACnRSTlMAzDPDPPPYnGMw2CgMzQAAAChJREFUKM9jgAPOAgZMwGIwKkhXQSUY0BCCMxkEYUAsEM4cjI4fwYIAf2QMNbUsZjcAAAAASUVORK5CYII=');
+	background-size: 15px;
+    width: 100%;
+    height:100vh;
+}
 
-    z-index: 1;
-    position: fixed;
+.circles{
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
