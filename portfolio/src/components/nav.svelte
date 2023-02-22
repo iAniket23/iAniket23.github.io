@@ -58,7 +58,7 @@
     }
     .nav-links a:hover::after{
         width: 100%;
-        height: 3px;
+        height: 5px;
         background: orange;
         transition: width .3s;
         bottom: -4px;

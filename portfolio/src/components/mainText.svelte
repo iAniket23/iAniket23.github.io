@@ -1,6 +1,6 @@
 <main>
     <div class = "container">
-        <h1 class = "first">Hey, I'm</h1>
+        <h1 class = "first"><i class = "word">Hey</i>, I'm</h1>
         <h1 class = "second">Aniket.</h1>
         <h1><span id = "third"></span></h1>
       </div>
@@ -13,6 +13,10 @@
   color: black;
   text-align: center;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+.word{
+    font-style: normal;
+    color: blue;
 }
 
 .first{

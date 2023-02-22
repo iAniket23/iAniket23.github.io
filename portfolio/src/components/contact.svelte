@@ -1,50 +1,51 @@
 <main>
     <div class = "container">
-        <h1 class = "second">Contact</h1>
-        <h1 class = "third">Contact form is not available yet :( <br> 
-                            Please send an email instead:   <a class="first" href="mailto: ianiket23@gmail.com">ianiket23@gmail.com</a></h1>
-
-        
- 
+        <h1 class = "second"><i class ="word1">My</i> Contact</h1>
+        <p class="fourth"><span>Please send an email instead:<br><a class="fifth" href="mailto: ianiket23@gmail.com">ianiket23@gmail.com</a></span></p>
       </div>
 </main>
 
 <style>
-
 .container{
   width: 100%;
-  color: #ffffff;
+  color: black;
   text-align: center;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
-.first{
-  color: #ffffff;
-    text-decoration: none;
-    border : 2px solid orange;}
-.first:hover{
-  color: orange;
-    border : 2px solid white;
+.word1{
+    font-style: normal;
+    color: blue;
+    font-weight: bold;
 }
-
 .second{
     text-align: center;
     display: inline;
     margin: 0 auto;
     overflow: hidden;
     color: orange;
-    font-size: 12vh;
+    font-size: 10vh;
     letter-spacing: 0;
     border-right: 0.1em solid orange;
     animation: 
         typing 3s steps(30, end),
         blink-caret .75s step-start infinite;
 }
-.third{
+
+.fourth{
     text-align: center;
-    font-size: 4vh;
-    margin: auto;
     margin-bottom: 2%;
+    font-size: 2vh;
 }
+.fifth{
+    text-align: center;
+    margin-bottom: 2%;
+    font-size: 2vh;
+}
+.fifth:hover{
+    color: orange;
+}
+
+
 /* The typing effect */
 @keyframes typing {
   from { width: 0 }

@@ -43,7 +43,7 @@
     list-style: none;
     width: 20px;
     height: 20px;
-    background: rgba(0, 0, 0, 0.4);
+    background: rgba(0, 0, 255, 0.3);
     animation: animate 25s linear infinite;
     bottom: -200px;
 }
