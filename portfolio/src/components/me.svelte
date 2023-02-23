@@ -5,7 +5,7 @@
     margin: 0 auto;
     }
 div.img {
-    background-image: url('img/port.gif');
+    background-image: url('img/bgport.gif');
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;

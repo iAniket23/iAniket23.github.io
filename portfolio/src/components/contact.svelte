@@ -1,11 +1,38 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <main>
   <div class = "container">
       <h1 class = "first"><i class = "word">Get</i> in</h1>
       <h1 class = "second">Touch</h1>
     </div>
 </main>
-
+<div class = "contactMethod">
+  <h4 class = "email"> <i class = "word2">Shoot</i> me an email: <br><a class = "link"href="mailto:ianiket23@gmail.com"><i class="fa fa-envelope"></i></a></h4>
+  <h4 class = "linkedin"> <i class = "word2">Reach</i> me out on LinkedIn <br><a class = "link" href="https://www.linkedin.com/in/ianiket23">
+    <i class="devicon-linkedin-plain"></i>
+  </a></h4>
+</div>
 <style>
+
+  .contactMethod{
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    font-size: 4vh;
+  }
+  .word2{
+    font-style: normal;
+    color: orange;
+    font-size: 4vh;;
+  }
+
+.link{
+  text-decoration: none;
+  font-size: 8vh;
+  color: black;
+}
+.link:hover{
+  color: orange;
+}
 
 .container{
 width: 100%;
