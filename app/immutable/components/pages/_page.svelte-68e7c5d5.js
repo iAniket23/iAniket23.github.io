@@ -13,7 +13,7 @@ function create_fragment$6(ctx) {
       this.h();
     },
     h() {
-      attr(div, "class", "img svelte-18ei38n");
+      attr(div, "class", "img svelte-1w9rnxv");
     },
     m(target, anchor) {
       insert_hydration(target, div, anchor);
