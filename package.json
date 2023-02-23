@@ -2,8 +2,5 @@
   "dependencies": {
     "svelte": "^3.55.1",
     "sveltestrap": "^5.10.0"
-  },
-  "devDependencies": {
-    "gh-pages": "^5.0.0"
   }
 }
