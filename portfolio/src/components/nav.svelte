@@ -50,8 +50,8 @@
         display: flex;
         padding: 1rem 1rem;
         -webkit-backdrop-filter: blur(5px);
-        backdrop-filter: blur(5px);
-        background: rgba(0, 0, 0, 0.5);
+            backdrop-filter: blur(5px);
+            background: rgba(0, 0, 0, 0.3);
         justify-content: flex-end;
     }
     .nav-links a{
@@ -74,7 +74,7 @@
     .nav-links a:hover::after{
         width: 100%;
         height: 5px;
-        background: orange;
+        background: blue;
         transition: width .3s;
         bottom: -4px;
     }
@@ -104,7 +104,6 @@
             left: 0;
             width: 100%;
             height: 100vh;
-            background: rgba(0, 0, 0, 0.95);
             display: flex;
             flex-direction: column;
             justify-content: top;
