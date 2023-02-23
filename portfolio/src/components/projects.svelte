@@ -103,8 +103,8 @@ p {
   flex-wrap: wrap;
   justify-content: center;
   display:block;
-  height:35vh;
-  width:35vh;
+  height:40vh;
+  width:38vh;
   padding:1em;
   box-shadow: 5px 5px 7px rgba(33,33,33,.7);
   transform: rotate(-6deg);
@@ -120,8 +120,8 @@ p {
   flex-wrap: wrap;
   justify-content: center;
   display:block;
-  height:35vh;
-  width:35vh;
+  height:40vh;
+  width:38vh;
   transform:rotate(4deg);
   position:relative;
   top:5px;
