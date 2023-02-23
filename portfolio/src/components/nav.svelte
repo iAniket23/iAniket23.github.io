@@ -99,7 +99,9 @@
             align-items: center;
             transform: translateX(-100%);
             z-index: 1;
-            border: #ffffff 1px solid;
+            -webkit-backdrop-filter: blur(5px);
+            backdrop-filter: blur(5px);
+            background: rgba(0, 0, 0, 0.9);
         }
         .nav-links a{
             font-size: 1.5rem;

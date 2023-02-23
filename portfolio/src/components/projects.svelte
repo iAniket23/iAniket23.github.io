@@ -57,11 +57,18 @@
     </div>
   </section>
 </div>
-
-
   </div>
+  <i class = "final">More <i class = "word4">projects</i> will be added soon! </i>
 </div>
+
   <style>
+    .final{
+      font-size: 2vh;
+      font-weight: bold;
+    }
+    .word4{
+      color: blue;
+    }
     .allProjects{
       display: flex;
       flex-direction: column;
