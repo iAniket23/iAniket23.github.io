@@ -4,6 +4,7 @@
     import Contact from "../components/contact.svelte";
     import About from "../components/about.svelte";
     import Skills from "../components/skills.svelte";
+    import Projects from "../components/projects.svelte";
 </script>
 
 <div id = "home">
@@ -15,6 +16,9 @@
     <Skills/>
 </div>
 
+<div id = "projects">
+    <Projects/>
+</div>
 <div id = "about">
     <About/>
 </div>
@@ -38,6 +42,10 @@
         padding-bottom: 12vh;
     }
     #skills{
+        padding-top: 12vh;
+        padding-bottom: 12vh;
+    }
+    #projects{
         padding-top: 12vh;
         padding-bottom: 12vh;
     }
