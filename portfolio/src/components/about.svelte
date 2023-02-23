@@ -12,7 +12,7 @@
       <h2>Who am I?</h2>
       <p>I am a full-stack developer currently completing my 
         undergraduate Bachelor's degree in Computer Science 
-        at the University of Albertain Edmonton, Canada. </p>
+        at the University of Alberta in Edmonton, Canada. </p>
   </li>
   <li>
       <h2>What am I passionate about?</h2>
