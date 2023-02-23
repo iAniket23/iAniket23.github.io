@@ -21,6 +21,7 @@
 
 <style>
     *{
+        z-index: 1;
         scroll-behavior: smooth;
         margin: 0;
         padding: 0;

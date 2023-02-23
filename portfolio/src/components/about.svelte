@@ -2,22 +2,111 @@
     <div class = "container">
         <h1 class = "first"><i class = "word">Meet</i><br>the Dev behind the</h1>
         <h1 class = "second">Code</h1>
-        <p class = "info">
-          Welcome to my website! I am a <i class = "edit2">full-stack developer</i> currently completing my undergraduate Bachelor's degree in Computer Science at the <i class = "edit">University of Alberta</i> in Edmonton, <i class = "edit">Canada</i>. I am passionate about using technology to solve real-world problems and improve people's lives.<br>
-          <br>When I'm not working, you can usually find me reading <i class = "edit">books</i>, playing <i class = "edit">guitar</i>, or practicing <i class = "edit">taekwondo</i>. I also enjoy meeting new people and learning about their experiences and perspectives.
-          I am an avid fan of motorsports and have recently started <i class = "edit">karting</i> as a hobby. I love following <i class = "edit">Formula 1</i> races and am looking forward to attending the <i class="edit2">Canadian Grand Prix in Montreal this summer.</i>
-     </p>
       </div>
 </main>
+<div class = "info">
+
+<div class = "stickynotes">
+<ul>
+  <li>
+      <h2>Who am I?</h2>
+      <p>I am a full-stack developer currently completing my 
+        undergraduate Bachelor's degree in Computer Science 
+        at the University of Albertain Edmonton, Canada. </p>
+  </li>
+  <li>
+      <h2>What am I passionate about?</h2>
+      <p>I am passionate about using technology to solve real-world problems and improve people's lives.</p>
+  </li>
+  <li>
+      <h2>Hobbies?</h2>
+      <p>When I'm not working, you can usually
+        find me reading, playing guitar, or practicing taekwondo. I also enjoy meeting new people and learning 
+        about their experiences and perspectives.</p>
+  </li>
+  <li>
+      <h2>Summer Plans?</h2>
+      <p>I am an avid fan of motorsports and have recently started karting 
+        as a hobby. I love following Formula 1 races and am looking forward to attending the Canadian Grand Prix in 
+        Montreal this summer.</p>
+  </li>
+</ul>
+</div>
+
+</div>
 
 <style>
+
+.stickynotes{
+  padding:0;
+  margin: 5vh;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 2vh;
+}
+
+p {
+  font-size: 2vh;
+}
+
+ul,li{
+  list-style:none;
+}
+
+ul{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+ul li{
+  text-decoration:none;
+  color:#000;
+  background:#ffc;
+  display:block;
+  height:30vh;
+  width:30vh;
+  padding:1em;
+  box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+  transform: rotate(-6deg);
+  transition: transform .15s linear;
+}
+
+ul li:nth-child(even){
+  transform:rotate(4deg);
+  position:relative;
+  top:5px;
+  background:#cfc;
+}
+
+ul li:nth-child(3n){
+  transform:rotate(-3deg);
+  position:relative;
+  top:-5px;
+  background:#ccf;
+}
+
+ul li:nth-child(5n){
+  transform:rotate(5deg);
+  position:relative;
+  top:-10px;
+}
+
+ul li{
+  margin:1em;
+}
 
 .container{
   width: 100%;
   color: black;
   text-align: center;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  margin-bottom: -6%;
 }
+
 .word{
     font-style: normal;
     color: blue;
