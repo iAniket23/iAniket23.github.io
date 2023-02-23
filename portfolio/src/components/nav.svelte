@@ -3,7 +3,7 @@
         var checkbox = document.getElementById("checkbox_toggle") as HTMLInputElement;
         checkbox.checked = false;
     }
-    function scrollToSection(sectionId) {
+    function scrollToSection(sectionId: string) {
         const section = document.getElementById(sectionId) as HTMLElement;
         section.scrollIntoView({ behavior: 'smooth' });
         uncheckCheckbox();
