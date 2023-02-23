@@ -1301,47 +1301,47 @@ function create_fragment$1(ctx) {
       this.h();
     },
     h() {
-      attr(i0, "class", "word svelte-10uiutg");
-      attr(h10, "class", "first svelte-10uiutg");
-      attr(h11, "class", "second svelte-10uiutg");
-      attr(div0, "class", "container svelte-10uiutg");
-      attr(span0, "class", "svelte-10uiutg");
-      attr(span1, "class", "svelte-10uiutg");
-      attr(span2, "class", "svelte-10uiutg");
-      attr(div1, "class", "toolbar svelte-10uiutg");
+      attr(i0, "class", "word svelte-1kz7yfi");
+      attr(h10, "class", "first svelte-1kz7yfi");
+      attr(h11, "class", "second svelte-1kz7yfi");
+      attr(div0, "class", "container svelte-1kz7yfi");
+      attr(span0, "class", "svelte-1kz7yfi");
+      attr(span1, "class", "svelte-1kz7yfi");
+      attr(span2, "class", "svelte-1kz7yfi");
+      attr(div1, "class", "toolbar svelte-1kz7yfi");
       if (!src_url_equal(img0.src, img0_src_value = "img/p1.gif"))
         attr(img0, "src", img0_src_value);
       attr(img0, "alt", "Avatar");
       set_style(img0, "width", "100%");
-      attr(div2, "class", "container2 svelte-10uiutg");
-      attr(section0, "class", "svelte-10uiutg");
-      attr(div3, "class", "demo svelte-10uiutg");
-      attr(h20, "class", "svelte-10uiutg");
+      attr(div2, "class", "container2 svelte-1kz7yfi");
+      attr(section0, "class", "svelte-1kz7yfi");
+      attr(div3, "class", "demo svelte-1kz7yfi");
+      attr(h20, "class", "svelte-1kz7yfi");
       attr(a0, "href", "https://hackathon-hacked2023.github.io/DivineInspiration/");
       attr(a1, "href", "https://github.com/Hackathon-Hacked2023/DivineInspiration");
       attr(a2, "href", "https://devpost.com/software/toneteller");
-      attr(p0, "class", "svelte-10uiutg");
-      attr(div4, "class", "stickynotes svelte-10uiutg");
-      attr(div5, "class", "p1 svelte-10uiutg");
-      attr(h21, "class", "svelte-10uiutg");
+      attr(p0, "class", "svelte-1kz7yfi");
+      attr(div4, "class", "stickynotes svelte-1kz7yfi");
+      attr(div5, "class", "p1 svelte-1kz7yfi");
+      attr(h21, "class", "svelte-1kz7yfi");
       attr(a3, "href", "https://github.com/CMPUT301W21T21-H03/Experimenter");
-      attr(p1, "class", "svelte-10uiutg");
-      attr(div6, "class", "stickynotes2 svelte-10uiutg");
-      attr(span3, "class", "svelte-10uiutg");
-      attr(span4, "class", "svelte-10uiutg");
-      attr(span5, "class", "svelte-10uiutg");
-      attr(div7, "class", "toolbar svelte-10uiutg");
+      attr(p1, "class", "svelte-1kz7yfi");
+      attr(div6, "class", "stickynotes2 svelte-1kz7yfi");
+      attr(span3, "class", "svelte-1kz7yfi");
+      attr(span4, "class", "svelte-1kz7yfi");
+      attr(span5, "class", "svelte-1kz7yfi");
+      attr(div7, "class", "toolbar svelte-1kz7yfi");
       if (!src_url_equal(img1.src, img1_src_value = "img/p2.gif"))
         attr(img1, "src", img1_src_value);
       attr(img1, "alt", "Avatar");
       set_style(img1, "width", "100%");
-      attr(div8, "class", "container2 svelte-10uiutg");
-      attr(section1, "class", "svelte-10uiutg");
-      attr(div9, "class", "demo svelte-10uiutg");
-      attr(div10, "class", "p1 svelte-10uiutg");
-      attr(i1, "class", "word4 svelte-10uiutg");
-      attr(i2, "class", "final svelte-10uiutg");
-      attr(div11, "class", "allProjects svelte-10uiutg");
+      attr(div8, "class", "container2 svelte-1kz7yfi");
+      attr(section1, "class", "svelte-1kz7yfi");
+      attr(div9, "class", "demo svelte-1kz7yfi");
+      attr(div10, "class", "p1 svelte-1kz7yfi");
+      attr(i1, "class", "word4 svelte-1kz7yfi");
+      attr(i2, "class", "final svelte-1kz7yfi");
+      attr(div11, "class", "allProjects svelte-1kz7yfi");
     },
     m(target, anchor) {
       insert_hydration(target, main, anchor);

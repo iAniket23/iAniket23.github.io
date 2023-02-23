@@ -120,26 +120,26 @@ function create_fragment$2(ctx) {
     h() {
       attr(input, "type", "checkbox");
       attr(input, "id", "checkbox_toggle");
-      attr(input, "class", "svelte-18ov98j");
+      attr(input, "class", "svelte-ds9ezx");
       attr(label, "for", "checkbox_toggle");
-      attr(label, "class", "hamburger svelte-18ov98j");
+      attr(label, "class", "hamburger svelte-ds9ezx");
       attr(a0, "href", "javascript:void(0)");
-      attr(a0, "class", "svelte-18ov98j");
+      attr(a0, "class", "svelte-ds9ezx");
       attr(a1, "href", "javascript:void(0)");
-      attr(a1, "class", "svelte-18ov98j");
+      attr(a1, "class", "svelte-ds9ezx");
       attr(a2, "href", "javascript:void(0)");
-      attr(a2, "class", "svelte-18ov98j");
+      attr(a2, "class", "svelte-ds9ezx");
       attr(a3, "href", "javascript:void(0)");
-      attr(a3, "class", "svelte-18ov98j");
+      attr(a3, "class", "svelte-ds9ezx");
       attr(a4, "href", "https://drive.google.com/file/d/1DfntPfRUI0IjXP2bnUuAsTMDysqyYOtH/view?usp=sharing");
-      attr(a4, "class", "svelte-18ov98j");
+      attr(a4, "class", "svelte-ds9ezx");
       attr(a5, "href", "https://www.linkedin.com/in/ianiket23");
-      attr(a5, "class", "svelte-18ov98j");
+      attr(a5, "class", "svelte-ds9ezx");
       attr(a6, "href", "https://github.com/iAniket23");
-      attr(a6, "class", "svelte-18ov98j");
-      attr(div, "class", "nav-links svelte-18ov98j");
-      attr(nav, "class", "svelte-18ov98j");
-      attr(main, "class", "svelte-18ov98j");
+      attr(a6, "class", "svelte-ds9ezx");
+      attr(div, "class", "nav-links svelte-ds9ezx");
+      attr(nav, "class", "svelte-ds9ezx");
+      attr(main, "class", "svelte-ds9ezx");
     },
     m(target, anchor) {
       insert_hydration(target, main, anchor);
