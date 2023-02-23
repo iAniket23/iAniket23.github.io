@@ -1,11 +1,139 @@
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+
 <main>
   <div class = "container">
-      <h1 class = "first"><i class = "word">Hey</i>, I'm</h1>
-      <h1 class = "second">Aniket.</h1>
+      <h1 class = "first"><i class = "word">Here</i><br>are my</h1>
+      <h1 class = "second">Skills</h1>
     </div>
+    <div class = "techStack">
+      <div class = "languages">
+        <h3 class = "lheading">Languages</h3>
+        <i class="devicon-python-plain-wordmark"></i>
+        <i class="devicon-javascript-plain"></i>
+        <i class="devicon-java-plain-wordmark"></i>
+        <i class="devicon-c-plain-wordmark"></i>
+        <i class="devicon-go-original-wordmark"></i>
+      </div>
+      <div class = "frontend">
+        <h3 class = "fheading">Frontend</h3>
+        <i class="devicon-react-original-wordmark"></i>
+        <i class="devicon-svelte-plain-wordmark"></i>
+        <i class="devicon-html5-plain-wordmark"></i>
+        <i class="devicon-css3-plain-wordmark"></i>
+      </div>
+      <div class = "backend">
+        <h3 class = "bheading">Backend</h3>
+        <i class="devicon-django-plain-wordmark" ></i>
+        <i class="devicon-flask-original-wordmark"></i>
+        <i class="devicon-firebase-plain-wordmark"></i>
+        <i class="devicon-mongodb-plain-wordmark"></i>
+        <i class="devicon-nginx-original-wordmark"></i>
+          
+          
+      </div>
+      <div class = "mobile">
+        <h3 class = "mheading">Mobile</h3> 
+        <i class="devicon-androidstudio-plain-wordmark"></i>
+        <i class="devicon-flutter-plain"></i>
+          
+      </div>
+      <div class = "tools">
+        <h3 class = "theading">Tools & Others</h3>
+        <i class="devicon-tensorflow-original"></i>
+        <i class="devicon-git-plain-wordmark"></i>
+        <i class="devicon-github-original-wordmark"></i>
+        <i class="devicon-docker-plain-wordmark"></i>
+          
+   
+      </div>
+    </div>
+    
 </main>
 
 <style>
+.techStack{
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  display: flex;
+  flex-direction: row;
+  color: black;
+  flex-wrap: wrap;
+  font-size: 10vh;
+  justify-content: center;
+}
+
+.languages{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 10vh;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  padding: 2%;
+}
+.lheading{
+  font-size: 5vh;
+}
+
+.frontend{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 10vh;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  padding: 2%;
+}
+.fheading{
+  font-size: 5vh;
+}
+
+.backend{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 10vh;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  padding: 2%;
+}
+.bheading{
+  font-size: 5vh;
+}
+
+.mobile{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 10vh;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  padding: 2%;
+}
+.mheading{
+  font-size: 5vh;
+}
+
+.tools{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 10vh;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  padding: 2%;
+}
+.theading{
+  font-size: 5vh;
+}
+
+
+
+
+
+
+
+
+
 
 .container{
 width: 100%;
@@ -16,11 +144,12 @@ font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, A
 .word{
   font-style: normal;
   color: blue;
+  font-size: 10vh;
 }
 
 .first{
   text-align: center;
-  font-size: 10vh;
+  font-size: 5vh;
   margin-bottom: 0%;
   margin-top: 0%;
 }

@@ -1,7 +1,7 @@
 <main>
   <div class = "container">
-      <h1 class = "first"><i class = "word">Hey</i>, I'm</h1>
-      <h1 class = "second">Aniket.</h1>
+      <h1 class = "first"><i class = "word">Get</i> in</h1>
+      <h1 class = "second">Touch</h1>
     </div>
 </main>
 
@@ -16,11 +16,12 @@ font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, A
 .word{
   font-style: normal;
   color: blue;
+  font-size: 10vh;
 }
 
 .first{
   text-align: center;
-  font-size: 10vh;
+  font-size: 6vh;
   margin-bottom: 0%;
   margin-top: 0%;
 }
