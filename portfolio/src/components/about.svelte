@@ -21,7 +21,7 @@
   <li>
       <h2>Hobbies?</h2>
       <p>When I'm not working, you can usually
-        find me reading, playing guitar, or practicing taekwondo. I also enjoy meeting new people and learning 
+        find me reading books, playing guitar, or practicing taekwondo. I also enjoy meeting new people and learning 
         about their experiences and perspectives.</p>
   </li>
   <li>

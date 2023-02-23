@@ -6,8 +6,8 @@
     </div>
 </main>
 <div class = "contactMethod">
-  <h4 class = "email"> <i class = "word2">Shoot</i> me an email: <br><a class = "link"href="mailto:ianiket23@gmail.com"><i class="fa fa-envelope"></i></a></h4>
-  <h4 class = "linkedin"> <i class = "word2">Reach</i> me out on LinkedIn <br><a class = "link" href="https://www.linkedin.com/in/ianiket23">
+  <h4 class = "email"> <i class = "word2">Shoot</i> me an email <br><a class = "link"href="mailto:ianiket23@gmail.com"><i class="fa fa-envelope"></i></a></h4>
+  <h4 class = "linkedin"> <i class = "word2">Reach</i> out to me on LinkedIn <br><a class = "link" href="https://www.linkedin.com/in/ianiket23">
     <i class="devicon-linkedin-plain"></i>
   </a></h4>
 </div>
