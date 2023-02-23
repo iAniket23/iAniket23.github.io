@@ -3,18 +3,30 @@
         var checkbox = document.getElementById("checkbox_toggle") as HTMLInputElement;
         checkbox.checked = false;
     }
+    function scrollToSection(sectionId) {
+        const section = document.getElementById(sectionId) as HTMLElement;
+        section.scrollIntoView({ behavior: 'smooth' });
+        uncheckCheckbox();
+}
 </script>
 <main>
     <nav>
         <input type="checkbox" id="checkbox_toggle" />
         <label for="checkbox_toggle" class="hamburger">&#9776;</label>
         <div class = "nav-links">
-            <a href= '#home' on:click={uncheckCheckbox}>Home</a>
-            <a href="#about" on:click={uncheckCheckbox}>About</a>
-            <a href= '#projects' on:click={uncheckCheckbox}>Projects</a>
-            <a href= '#contact' on:click={uncheckCheckbox}>Contact</a>
+            <!-- svelte-ignore a11y-invalid-attribute -->
+            <a href="javascript:void(0)" on:click={() => scrollToSection('home')}>Home</a>
+            <!-- svelte-ignore a11y-invalid-attribute -->
+            <a href="javascript:void(0)" on:click={() => scrollToSection('about')}>About</a>
+            <!-- svelte-ignore a11y-invalid-attribute -->
+            <a href="javascript:void(0)" on:click={() => scrollToSection('projects')}>Projects</a>
+            <!-- svelte-ignore a11y-invalid-attribute -->
+            <a href="javascript:void(0)" on:click={() => scrollToSection('contact')}>Contact</a>
+            <!-- svelte-ignore a11y-invalid-attribute -->
             <a href="https://drive.google.com/file/d/1DfntPfRUI0IjXP2bnUuAsTMDysqyYOtH/view?usp=sharing">Resume</a>
+            <!-- svelte-ignore a11y-invalid-attribute -->
             <a href="https://www.linkedin.com/in/ianiket23">LinkedIn</a>
+            <!-- svelte-ignore a11y-invalid-attribute -->
             <a href="https://github.com/iAniket23">Github</a>
             
         </div>
