@@ -2,3 +2,6 @@
 Welcome to my portfolio website! 
 This is made using Sveltekit :)   
 [ianiket23.github.io](https://ianiket23.github.io)
+
+## TODO   
+1. Add Open Source contributions
