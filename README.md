@@ -5,3 +5,6 @@ This is made using Sveltekit :)
 
 ## TODO   
 1. Add Open Source contributions
+2. Add ML section
+3. Add Hackathon section
+4. Add More Projects   
