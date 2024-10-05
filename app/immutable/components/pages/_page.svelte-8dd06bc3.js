@@ -383,7 +383,7 @@ function create_fragment$3(ctx) {
       t5 = text("Who am I?");
       t6 = space();
       p0 = element("p");
-      t7 = text("I am a full-stack developer currently completing my \n        undergraduate Bachelor's degree in Computer Science \n        at the University of Alberta in Edmonton, Canada.");
+      t7 = text("I am a software developer who has completed a Bachelor's degree in Computer Science\n        from the University of Alberta, Edmonton, Canada.");
       t8 = space();
       li1 = element("li");
       h21 = element("h2");
@@ -397,14 +397,14 @@ function create_fragment$3(ctx) {
       t13 = text("Hobbies?");
       t14 = space();
       p2 = element("p");
-      t15 = text("When I'm not working, you can usually\n        find me reading books, playing guitar, or practicing taekwondo. I also enjoy meeting new people and learning \n        about their experiences and perspectives.");
+      t15 = text("When I'm not working, you can usually find me playing guitar, practicing taekwondo, \n        or rowing on the North Saskatchewan River.\n        I also enjoy meeting new people and learning about their experiences and perspectives.");
       t16 = space();
       li3 = element("li");
       h23 = element("h2");
       t17 = text("Summer Plans?");
       t18 = space();
       p3 = element("p");
-      t19 = text("I am an avid fan of motorsports and have recently started karting \n        as a hobby. I love following Formula 1 races and am looking forward to attending the Canadian Grand Prix in \n        Montreal this summer.");
+      t19 = text("I am an avid fan of motorsports and have recently started karting \n        as a hobby. I love following Formula 1 races and am looking forward to attending the Canadian Grand Prix in \n        Montreal this coming summer.");
       this.h();
     },
     l(nodes) {
@@ -444,7 +444,7 @@ function create_fragment$3(ctx) {
       t6 = claim_space(li0_nodes);
       p0 = claim_element(li0_nodes, "P", { class: true });
       var p0_nodes = children(p0);
-      t7 = claim_text(p0_nodes, "I am a full-stack developer currently completing my \n        undergraduate Bachelor's degree in Computer Science \n        at the University of Alberta in Edmonton, Canada.");
+      t7 = claim_text(p0_nodes, "I am a software developer who has completed a Bachelor's degree in Computer Science\n        from the University of Alberta, Edmonton, Canada.");
       p0_nodes.forEach(detach);
       li0_nodes.forEach(detach);
       t8 = claim_space(ul_nodes);
@@ -470,7 +470,7 @@ function create_fragment$3(ctx) {
       t14 = claim_space(li2_nodes);
       p2 = claim_element(li2_nodes, "P", { class: true });
       var p2_nodes = children(p2);
-      t15 = claim_text(p2_nodes, "When I'm not working, you can usually\n        find me reading books, playing guitar, or practicing taekwondo. I also enjoy meeting new people and learning \n        about their experiences and perspectives.");
+      t15 = claim_text(p2_nodes, "When I'm not working, you can usually find me playing guitar, practicing taekwondo, \n        or rowing on the North Saskatchewan River.\n        I also enjoy meeting new people and learning about their experiences and perspectives.");
       p2_nodes.forEach(detach);
       li2_nodes.forEach(detach);
       t16 = claim_space(ul_nodes);
@@ -483,7 +483,7 @@ function create_fragment$3(ctx) {
       t18 = claim_space(li3_nodes);
       p3 = claim_element(li3_nodes, "P", { class: true });
       var p3_nodes = children(p3);
-      t19 = claim_text(p3_nodes, "I am an avid fan of motorsports and have recently started karting \n        as a hobby. I love following Formula 1 races and am looking forward to attending the Canadian Grand Prix in \n        Montreal this summer.");
+      t19 = claim_text(p3_nodes, "I am an avid fan of motorsports and have recently started karting \n        as a hobby. I love following Formula 1 races and am looking forward to attending the Canadian Grand Prix in \n        Montreal this coming summer.");
       p3_nodes.forEach(detach);
       li3_nodes.forEach(detach);
       ul_nodes.forEach(detach);
