@@ -10,9 +10,8 @@
 <ul>
   <li>
       <h2>Who am I?</h2>
-      <p>I am a full-stack developer currently completing my 
-        undergraduate Bachelor's degree in Computer Science 
-        at the University of Alberta in Edmonton, Canada. </p>
+      <p>I am a software developer who has completed a Bachelor's degree in Computer Science
+        from the University of Alberta, Edmonton, Canada.</p>
   </li>
   <li>
       <h2>What am I passionate about?</h2>
@@ -20,15 +19,15 @@
   </li>
   <li>
       <h2>Hobbies?</h2>
-      <p>When I'm not working, you can usually
-        find me reading books, playing guitar, or practicing taekwondo. I also enjoy meeting new people and learning 
-        about their experiences and perspectives.</p>
+      <p>When I'm not working, you can usually find me playing guitar, practicing taekwondo, 
+        or rowing on the North Saskatchewan River.
+        I also enjoy meeting new people and learning about their experiences and perspectives.</p>
   </li>
   <li>
       <h2>Summer Plans?</h2>
       <p>I am an avid fan of motorsports and have recently started karting 
         as a hobby. I love following Formula 1 races and am looking forward to attending the Canadian Grand Prix in 
-        Montreal this summer.</p>
+        Montreal this coming summer.</p>
   </li>
 </ul>
 </div>
