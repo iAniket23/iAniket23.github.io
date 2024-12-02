@@ -166,11 +166,12 @@ p {
   flex-wrap: wrap;
   justify-content: center;
   display:block;
-  height:38vh;
+  height:42vh;
   width:38vh;
   transform:rotate(4deg);
   position:relative;
-  top:25px;
+  top:5px;
+  left:-8px;
   background:#cfc;
   padding:1em;
   box-shadow: 5px 5px 7px rgba(33,33,33,.7);
