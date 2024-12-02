@@ -166,7 +166,7 @@ p {
   flex-wrap: wrap;
   justify-content: center;
   display:block;
-  height:42vh;
+  height:44vh;
   width:38vh;
   transform:rotate(4deg);
   position:relative;
