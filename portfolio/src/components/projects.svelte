@@ -6,6 +6,32 @@
   </main>
   <div class = "allProjects">
     <div class = "p1">
+      <div class = "stickynotes3">
+        <h2>Project 1 - FissionMunk</h2>
+        <p>FissionMunk is a lightweight 2D physics open source python library designed to simulate nuclear fission reactor mechanics.<br><br>
+          It enables users to visualize interactions between neutrons and uranium atoms, providing valuable insights into fission
+          dynamics with customizable parameters, such as neutron occurrence probabilities, moderators, and control rods. 
+         <br><br>
+          <a href="https://github.com/iAniket23/FissionMunk">Github</a>
+          &nbsp<a href="https://pypi.org/project/fissionmunk/">PyPI</a>
+          </p>
+  
+  </div>
+    <div class = "demo">
+    <section>
+      <div class="toolbar">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="container2">
+        <img src="img/media_rbmk.gif" alt="Avatar" style="width:100%">
+      </div>
+    </section>
+  </div>
+    </div>
+
+    <div class = "p1">
       <div class = "demo">
       <section>
         <div class="toolbar">
@@ -20,7 +46,7 @@
     </div>
     
     <div class = "stickynotes">
-            <h2>Project 1 - Toneteller</h2>
+            <h2>Project 2 - Toneteller</h2>
             <p>Toneteller is a web application and 
               chrome extension that uses machine learning 
               and artificial intelligence to perform sentiment 
@@ -36,7 +62,7 @@
       </div>
   <div class = "p1">
     <div class = "stickynotes2">
-      <h2>Project 2 - Experimenter</h2>
+      <h2>Project 3 - Experimenter</h2>
       <p>It is an Android app that simplifies experiment and test recording with 
         built-in patterns for Binomial and Non-Negative tests, and displays 
         locations through Google Map API.<br><br> The app allows in-depth analysis of experiment data. Overall, this app is a 
@@ -132,6 +158,27 @@ p {
   align-items: center;
   color: black;
 }
+.stickynotes3{
+  text-decoration:none;
+  color:#000;
+  background:#ffc;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  display:block;
+  height:38vh;
+  width:38vh;
+  transform:rotate(4deg);
+  position:relative;
+  top:25px;
+  background:#cfc;
+  padding:1em;
+  box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+  transition: transform .15s linear;
+  align-items: center;
+  color: black;
+}
+
 .demo {
     display: flex;
     align-items: center;
