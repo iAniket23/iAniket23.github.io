@@ -4,18 +4,48 @@
         <h1 class = "second">Projects</h1>
       </div>
   </main>
+  <div class = "p1">
+    <div class = "demo">
+    <section>
+      <div class="toolbar">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="container2">
+        <img src="img/media_bb.gif" alt="Avatar" style="width:100%">
+      </div>
+    </section>
+  </div>
+
+  <div class = "stickynotes">
+          <h2>Project 1 - Business Boardroom</h2>
+          <p>It is a full-stack application that simulates structured conversations between
+            marketing team members using multi-agent Generative AI. <br> Designed for product ideation,
+            marketing analysis, and strategic decision-making, it integrates with Slack to allow
+            agent interactions in team channels, as well as a standalone frontend website for
+            web-based simulations<br><br>
+            <a href="https://business-boardroom-web-197814739607.us-central1.run.app/">Website</a>
+            &nbsp<a href="https://github.com/iAniket23/Business-Boardroom">Github</a>
+            &nbsp<a href="https://medium.com/@ianiket23/reimagining-the-boardroom-a-genai-powered-business-simulation-80e9c20a41ed">Blog</a>
+            </p>
+
+    </div>
+    </div>
+
+
   <div class = "allProjects">
     <div class = "p1">
       <div class = "stickynotes3">
-        <h2>Project 1 - FissionMunk</h2>
+        <h2>Project 2 - FissionMunk</h2>
         <p>FissionMunk is a lightweight 2D physics open source python library designed to simulate nuclear fission reactor mechanics.<br><br>
           It enables users to visualize interactions between neutrons and uranium atoms, providing valuable insights into fission
-          dynamics with customizable parameters, such as neutron occurrence probabilities, moderators, and control rods. 
+          dynamics with customizable parameters, such as neutron occurrence probabilities, moderators, and control rods.
          <br><br>
           <a href="https://github.com/iAniket23/FissionMunk">Github</a>
           &nbsp<a href="https://pypi.org/project/fissionmunk/">PyPI</a>
           </p>
-  
+
   </div>
     <div class = "demo">
     <section>
@@ -44,28 +74,28 @@
         </div>
       </section>
     </div>
-    
+
     <div class = "stickynotes">
-            <h2>Project 2 - Toneteller</h2>
-            <p>Toneteller is a web application and 
-              chrome extension that uses machine learning 
-              and artificial intelligence to perform sentiment 
+            <h2>Project 3 - Toneteller</h2>
+            <p>Toneteller is a web application and
+              chrome extension that uses machine learning
+              and artificial intelligence to perform sentiment
               analysis on the text that a user has entered.<br>
-              <br>My team and I developed this project during 
+              <br>My team and I developed this project during
               a hackathon where it was awarded second place.<br><br>
               <a href="https://hackathon-hacked2023.github.io/DivineInspiration/">Website</a>
               &nbsp<a href="https://github.com/Hackathon-Hacked2023/DivineInspiration">Github</a>
               &nbsp<a href="https://devpost.com/software/toneteller">Devpost</a>
               </p>
-    
+
       </div>
       </div>
   <div class = "p1">
     <div class = "stickynotes2">
-      <h2>Project 3 - Experimenter</h2>
-      <p>It is an Android app that simplifies experiment and test recording with 
-        built-in patterns for Binomial and Non-Negative tests, and displays 
-        locations through Google Map API.<br><br> The app allows in-depth analysis of experiment data. Overall, this app is a 
+      <h2>Project 4 - Experimenter</h2>
+      <p>It is an Android app that simplifies experiment and test recording with
+        built-in patterns for Binomial and Non-Negative tests, and displays
+        locations through Google Map API.<br><br> The app allows in-depth analysis of experiment data. Overall, this app is a
         valuable tool to efficiently conduct and analyze experiments on the go.<br><br>
         <a href="https://github.com/CMPUT301W21T21-H03/Experimenter">Github</a>
         </p>
