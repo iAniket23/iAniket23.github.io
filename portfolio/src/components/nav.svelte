@@ -23,7 +23,7 @@
             <!-- svelte-ignore a11y-invalid-attribute -->
             <a href="javascript:void(0)" on:click={() => scrollToSection('contact')}>Contact</a>
             <!-- svelte-ignore a11y-invalid-attribute -->
-            <a href="https://drive.google.com/file/d/1lPzE-qIrDdoMfeNlKOF9o8swxUOUQUMw/view?usp=sharing">Resume</a>
+            <a href="https://drive.google.com/file/d/19lnlF0gvAcb5O4nh3dzObpWfdJl3BOEk/view?usp=sharing">Resume</a>
             <!-- svelte-ignore a11y-invalid-attribute -->
             <a href="https://www.linkedin.com/in/ianiket23">LinkedIn</a>
             <!-- svelte-ignore a11y-invalid-attribute -->
