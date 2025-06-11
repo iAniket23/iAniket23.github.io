@@ -27,9 +27,6 @@ function create_fragment$2(ctx) {
   let t12;
   let a5;
   let t13;
-  let t14;
-  let a6;
-  let t15;
   let mounted;
   let dispose;
   return {
@@ -55,13 +52,10 @@ function create_fragment$2(ctx) {
       t9 = text("Contact");
       t10 = space();
       a4 = element("a");
-      t11 = text("Resume");
+      t11 = text("LinkedIn");
       t12 = space();
       a5 = element("a");
-      t13 = text("LinkedIn");
-      t14 = space();
-      a6 = element("a");
-      t15 = text("Github");
+      t13 = text("Github");
       this.h();
     },
     l(nodes) {
@@ -100,18 +94,13 @@ function create_fragment$2(ctx) {
       t10 = claim_space(div_nodes);
       a4 = claim_element(div_nodes, "A", { href: true, class: true });
       var a4_nodes = children(a4);
-      t11 = claim_text(a4_nodes, "Resume");
+      t11 = claim_text(a4_nodes, "LinkedIn");
       a4_nodes.forEach(detach);
       t12 = claim_space(div_nodes);
       a5 = claim_element(div_nodes, "A", { href: true, class: true });
       var a5_nodes = children(a5);
-      t13 = claim_text(a5_nodes, "LinkedIn");
+      t13 = claim_text(a5_nodes, "Github");
       a5_nodes.forEach(detach);
-      t14 = claim_space(div_nodes);
-      a6 = claim_element(div_nodes, "A", { href: true, class: true });
-      var a6_nodes = children(a6);
-      t15 = claim_text(a6_nodes, "Github");
-      a6_nodes.forEach(detach);
       div_nodes.forEach(detach);
       nav_nodes.forEach(detach);
       main_nodes.forEach(detach);
@@ -131,12 +120,10 @@ function create_fragment$2(ctx) {
       attr(a2, "class", "svelte-13w58b3");
       attr(a3, "href", "javascript:void(0)");
       attr(a3, "class", "svelte-13w58b3");
-      attr(a4, "href", "https://drive.google.com/file/d/19lnlF0gvAcb5O4nh3dzObpWfdJl3BOEk/view?usp=sharing");
+      attr(a4, "href", "https://www.linkedin.com/in/ianiket23");
       attr(a4, "class", "svelte-13w58b3");
-      attr(a5, "href", "https://www.linkedin.com/in/ianiket23");
+      attr(a5, "href", "https://github.com/iAniket23");
       attr(a5, "class", "svelte-13w58b3");
-      attr(a6, "href", "https://github.com/iAniket23");
-      attr(a6, "class", "svelte-13w58b3");
       attr(div, "class", "nav-links svelte-13w58b3");
       attr(nav, "class", "svelte-13w58b3");
       attr(main, "class", "svelte-13w58b3");
@@ -167,9 +154,6 @@ function create_fragment$2(ctx) {
       append_hydration(div, t12);
       append_hydration(div, a5);
       append_hydration(a5, t13);
-      append_hydration(div, t14);
-      append_hydration(div, a6);
-      append_hydration(a6, t15);
       if (!mounted) {
         dispose = [
           listen(
