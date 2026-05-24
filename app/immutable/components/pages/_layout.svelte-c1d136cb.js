@@ -27,6 +27,12 @@ function create_fragment$2(ctx) {
   let t12;
   let a5;
   let t13;
+  let t14;
+  let a6;
+  let t15;
+  let t16;
+  let a7;
+  let t17;
   let mounted;
   let dispose;
   return {
@@ -46,16 +52,22 @@ function create_fragment$2(ctx) {
       t5 = text("About");
       t6 = space();
       a2 = element("a");
-      t7 = text("Projects");
+      t7 = text("Experience");
       t8 = space();
       a3 = element("a");
-      t9 = text("Contact");
+      t9 = text("Projects");
       t10 = space();
       a4 = element("a");
-      t11 = text("LinkedIn");
+      t11 = text("Contact");
       t12 = space();
       a5 = element("a");
-      t13 = text("Github");
+      t13 = text("Resume");
+      t14 = space();
+      a6 = element("a");
+      t15 = text("LinkedIn");
+      t16 = space();
+      a7 = element("a");
+      t17 = text("Github");
       this.h();
     },
     l(nodes) {
@@ -84,23 +96,33 @@ function create_fragment$2(ctx) {
       t6 = claim_space(div_nodes);
       a2 = claim_element(div_nodes, "A", { href: true, class: true });
       var a2_nodes = children(a2);
-      t7 = claim_text(a2_nodes, "Projects");
+      t7 = claim_text(a2_nodes, "Experience");
       a2_nodes.forEach(detach);
       t8 = claim_space(div_nodes);
       a3 = claim_element(div_nodes, "A", { href: true, class: true });
       var a3_nodes = children(a3);
-      t9 = claim_text(a3_nodes, "Contact");
+      t9 = claim_text(a3_nodes, "Projects");
       a3_nodes.forEach(detach);
       t10 = claim_space(div_nodes);
       a4 = claim_element(div_nodes, "A", { href: true, class: true });
       var a4_nodes = children(a4);
-      t11 = claim_text(a4_nodes, "LinkedIn");
+      t11 = claim_text(a4_nodes, "Contact");
       a4_nodes.forEach(detach);
       t12 = claim_space(div_nodes);
       a5 = claim_element(div_nodes, "A", { href: true, class: true });
       var a5_nodes = children(a5);
-      t13 = claim_text(a5_nodes, "Github");
+      t13 = claim_text(a5_nodes, "Resume");
       a5_nodes.forEach(detach);
+      t14 = claim_space(div_nodes);
+      a6 = claim_element(div_nodes, "A", { href: true, class: true });
+      var a6_nodes = children(a6);
+      t15 = claim_text(a6_nodes, "LinkedIn");
+      a6_nodes.forEach(detach);
+      t16 = claim_space(div_nodes);
+      a7 = claim_element(div_nodes, "A", { href: true, class: true });
+      var a7_nodes = children(a7);
+      t17 = claim_text(a7_nodes, "Github");
+      a7_nodes.forEach(detach);
       div_nodes.forEach(detach);
       nav_nodes.forEach(detach);
       main_nodes.forEach(detach);
@@ -109,24 +131,28 @@ function create_fragment$2(ctx) {
     h() {
       attr(input, "type", "checkbox");
       attr(input, "id", "checkbox_toggle");
-      attr(input, "class", "svelte-13w58b3");
+      attr(input, "class", "svelte-3hugs8");
       attr(label, "for", "checkbox_toggle");
-      attr(label, "class", "hamburger svelte-13w58b3");
+      attr(label, "class", "hamburger svelte-3hugs8");
       attr(a0, "href", "javascript:void(0)");
-      attr(a0, "class", "svelte-13w58b3");
+      attr(a0, "class", "svelte-3hugs8");
       attr(a1, "href", "javascript:void(0)");
-      attr(a1, "class", "svelte-13w58b3");
+      attr(a1, "class", "svelte-3hugs8");
       attr(a2, "href", "javascript:void(0)");
-      attr(a2, "class", "svelte-13w58b3");
+      attr(a2, "class", "svelte-3hugs8");
       attr(a3, "href", "javascript:void(0)");
-      attr(a3, "class", "svelte-13w58b3");
-      attr(a4, "href", "https://www.linkedin.com/in/ianiket23");
-      attr(a4, "class", "svelte-13w58b3");
-      attr(a5, "href", "https://github.com/iAniket23");
-      attr(a5, "class", "svelte-13w58b3");
-      attr(div, "class", "nav-links svelte-13w58b3");
-      attr(nav, "class", "svelte-13w58b3");
-      attr(main, "class", "svelte-13w58b3");
+      attr(a3, "class", "svelte-3hugs8");
+      attr(a4, "href", "javascript:void(0)");
+      attr(a4, "class", "svelte-3hugs8");
+      attr(a5, "href", "https://drive.google.com/file/d/19lnlF0gvAcb5O4nh3dzObpWfdJl3BOEk/view?usp=sharing");
+      attr(a5, "class", "svelte-3hugs8");
+      attr(a6, "href", "https://www.linkedin.com/in/ianiket23");
+      attr(a6, "class", "svelte-3hugs8");
+      attr(a7, "href", "https://github.com/iAniket23");
+      attr(a7, "class", "svelte-3hugs8");
+      attr(div, "class", "nav-links svelte-3hugs8");
+      attr(nav, "class", "svelte-3hugs8");
+      attr(main, "class", "svelte-3hugs8");
     },
     m(target, anchor) {
       insert_hydration(target, main, anchor);
@@ -154,6 +180,12 @@ function create_fragment$2(ctx) {
       append_hydration(div, t12);
       append_hydration(div, a5);
       append_hydration(a5, t13);
+      append_hydration(div, t14);
+      append_hydration(div, a6);
+      append_hydration(a6, t15);
+      append_hydration(div, t16);
+      append_hydration(div, a7);
+      append_hydration(a7, t17);
       if (!mounted) {
         dispose = [
           listen(
@@ -179,6 +211,12 @@ function create_fragment$2(ctx) {
             "click",
             /*click_handler_3*/
             ctx[3]
+          ),
+          listen(
+            a4,
+            "click",
+            /*click_handler_4*/
+            ctx[4]
           )
         ];
         mounted = true;
@@ -207,9 +245,16 @@ function scrollToSection(sectionId) {
 function instance$1($$self) {
   const click_handler = () => scrollToSection("home");
   const click_handler_1 = () => scrollToSection("about");
-  const click_handler_2 = () => scrollToSection("projects");
-  const click_handler_3 = () => scrollToSection("contact");
-  return [click_handler, click_handler_1, click_handler_2, click_handler_3];
+  const click_handler_2 = () => scrollToSection("experience");
+  const click_handler_3 = () => scrollToSection("projects");
+  const click_handler_4 = () => scrollToSection("contact");
+  return [
+    click_handler,
+    click_handler_1,
+    click_handler_2,
+    click_handler_3,
+    click_handler_4
+  ];
 }
 class Nav extends SvelteComponent {
   constructor(options) {
@@ -304,18 +349,18 @@ function create_fragment$1(ctx) {
       this.h();
     },
     h() {
-      attr(li0, "class", "svelte-jsuvft");
-      attr(li1, "class", "svelte-jsuvft");
-      attr(li2, "class", "svelte-jsuvft");
-      attr(li3, "class", "svelte-jsuvft");
-      attr(li4, "class", "svelte-jsuvft");
-      attr(li5, "class", "svelte-jsuvft");
-      attr(li6, "class", "svelte-jsuvft");
-      attr(li7, "class", "svelte-jsuvft");
-      attr(li8, "class", "svelte-jsuvft");
-      attr(li9, "class", "svelte-jsuvft");
-      attr(ul, "class", "circles svelte-jsuvft");
-      attr(div, "class", "area svelte-jsuvft");
+      attr(li0, "class", "svelte-1wad2ja");
+      attr(li1, "class", "svelte-1wad2ja");
+      attr(li2, "class", "svelte-1wad2ja");
+      attr(li3, "class", "svelte-1wad2ja");
+      attr(li4, "class", "svelte-1wad2ja");
+      attr(li5, "class", "svelte-1wad2ja");
+      attr(li6, "class", "svelte-1wad2ja");
+      attr(li7, "class", "svelte-1wad2ja");
+      attr(li8, "class", "svelte-1wad2ja");
+      attr(li9, "class", "svelte-1wad2ja");
+      attr(ul, "class", "circles svelte-1wad2ja");
+      attr(div, "class", "area svelte-1wad2ja");
     },
     m(target, anchor) {
       insert_hydration(target, div, anchor);
