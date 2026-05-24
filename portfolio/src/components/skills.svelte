@@ -198,9 +198,8 @@
   }
   .second {
     text-align: center;
-    display: inline-block;
+    display: inline;
     overflow: hidden;
-    white-space: nowrap;
     color: orange;
     font-size: 12vh;
     letter-spacing: 0;
