@@ -20,7 +20,7 @@
   <li>
       <h2>Hobbies?</h2>
       <p>When I'm not working, you can usually find me playing guitar, practicing taekwondo, 
-        or rowing on the North Saskatchewan River.
+        or kayaking on the North Saskatchewan River.
         I also enjoy meeting new people and learning about their experiences and perspectives.</p>
   </li>
   <li>
@@ -143,12 +143,4 @@ ul li{
   50% { border-color: orange; }
 }
 
-</style>
-
-
-
-
-
-
-
-   
+</style>   

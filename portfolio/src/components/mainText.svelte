@@ -53,8 +53,8 @@
   0% { content:"Full-Stack Developer";}
   20% { content: "Web Developer"; }
   40% { content: "Entrepreneur"; }
-  60% { content: "Innovator"; }
-  80% { content: "Android Developer"; }
+  60% { content: "AI/ML Engineer"; }
+  80% { content: "Software Engineer"; }
   100% { content: "Full-Stack Developer"; }
 }
 /* The typing effect */

@@ -29,7 +29,7 @@
             &nbsp<a href="https://github.com/iAniket23/Business-Boardroom">Github</a>
             &nbsp<a href="https://medium.com/@ianiket23/reimagining-the-boardroom-a-genai-powered-business-simulation-80e9c20a41ed">Blog</a>
             </p>
-
+            
     </div>
     </div>
 
