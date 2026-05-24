@@ -144,7 +144,7 @@ function create_fragment$2(ctx) {
       attr(a3, "class", "svelte-3hugs8");
       attr(a4, "href", "javascript:void(0)");
       attr(a4, "class", "svelte-3hugs8");
-      attr(a5, "href", "https://drive.google.com/file/d/19lnlF0gvAcb5O4nh3dzObpWfdJl3BOEk/view?usp=sharing");
+      attr(a5, "href", "https://drive.google.com/file/d/1OujJHMTc3igTTvS13TQk1m7przd_14Gf/view?usp=share_link");
       attr(a5, "class", "svelte-3hugs8");
       attr(a6, "href", "https://www.linkedin.com/in/ianiket23");
       attr(a6, "class", "svelte-3hugs8");
