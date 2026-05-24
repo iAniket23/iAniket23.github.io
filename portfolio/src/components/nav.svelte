@@ -19,6 +19,8 @@
             <!-- svelte-ignore a11y-invalid-attribute -->
             <a href="javascript:void(0)" on:click={() => scrollToSection('about')}>About</a>
             <!-- svelte-ignore a11y-invalid-attribute -->
+            <a href="javascript:void(0)" on:click={() => scrollToSection('experience')}>Experience</a>
+            <!-- svelte-ignore a11y-invalid-attribute -->
             <a href="javascript:void(0)" on:click={() => scrollToSection('projects')}>Projects</a>
             <!-- svelte-ignore a11y-invalid-attribute -->
             <a href="javascript:void(0)" on:click={() => scrollToSection('contact')}>Contact</a>
@@ -47,6 +49,7 @@
     nav {
         width: 100%;
         position: fixed;
+        z-index: 1000;
         display: flex;
         padding: 1rem 1rem;
         -webkit-backdrop-filter: blur(5px);

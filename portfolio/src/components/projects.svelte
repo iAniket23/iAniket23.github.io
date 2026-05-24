@@ -13,25 +13,20 @@
         <span></span>
       </div>
       <div class="container2">
-        <img src="img/media_bb.gif" alt="Avatar" style="width:100%">
+        <img src="img/notexo_gif.gif" alt="NotExo" style="width:100%">
       </div>
     </section>
   </div>
 
-  <div class = "stickynotes">
-          <h2>Project 1 - Business Boardroom</h2>
-          <p>It is a full-stack application that simulates structured conversations between
-            marketing team members using multi-agent Generative AI. <br> Designed for product ideation,
-            marketing analysis, and strategic decision-making, it integrates with Slack to allow
-            agent interactions in team channels, as well as a standalone frontend website for
-            web-based simulations<br><br>
-            <a href="https://business-boardroom-web-197814739607.us-central1.run.app/">Website</a>
-            &nbsp<a href="https://github.com/iAniket23/Business-Boardroom">Github</a>
-            &nbsp<a href="https://medium.com/@ianiket23/reimagining-the-boardroom-a-genai-powered-business-simulation-80e9c20a41ed">Blog</a>
-            </p>
-            
-    </div>
-    </div>
+  <div class = "stickynotes4">
+    <h2>Project 1 - NotExo</h2>
+    <p>An open research initiative applying ML and data engineering to terabytes of publicly available data from space agencies (NASA, ISRO, CSA, ESA, JAXA).<br><br>
+      Covers exoplanet classification using Quantum SVM, solar wind analysis on Mars, and climate science, with custom pipelines to process and benchmark massive telescope datasets.<br><br>
+      Features a secure model-sharing format (.exo) that bundles a trained model, statistics, and RSA encryption.<br><br>
+      <a href="https://notexo.earth">Website</a>
+    </p>
+  </div>
+  </div>
 
 
   <div class = "allProjects">
@@ -62,34 +57,34 @@
     </div>
 
     <div class = "p1">
-      <div class = "demo">
-      <section>
-        <div class="toolbar">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-        <div class="container2">
-          <img src="img/p1.gif" alt="Avatar" style="width:100%">
-        </div>
-      </section>
+    <div class = "demo">
+    <section>
+      <div class="toolbar">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="container2">
+        <img src="img/media_bb.gif" alt="Avatar" style="width:100%">
+      </div>
+    </section>
+  </div>
+
+  <div class = "stickynotes">
+          <h2>Project 3 - Business Boardroom</h2>
+          <p>It is a full-stack application that simulates structured conversations between
+            marketing team members using multi-agent Generative AI. <br> Designed for product ideation,
+            marketing analysis, and strategic decision-making, it integrates with Slack to allow
+            agent interactions in team channels, as well as a standalone frontend website for
+            web-based simulations<br><br>
+            <a href="https://business-boardroom-web-197814739607.us-central1.run.app/">Website</a>
+            &nbsp<a href="https://github.com/iAniket23/Business-Boardroom">Github</a>
+            &nbsp<a href="https://medium.com/@ianiket23/reimagining-the-boardroom-a-genai-powered-business-simulation-80e9c20a41ed">Blog</a>
+            </p>
+            
+    </div>
     </div>
 
-    <div class = "stickynotes">
-            <h2>Project 3 - Toneteller</h2>
-            <p>Toneteller is a web application and
-              chrome extension that uses machine learning
-              and artificial intelligence to perform sentiment
-              analysis on the text that a user has entered.<br>
-              <br>My team and I developed this project during
-              a hackathon where it was awarded second place.<br><br>
-              <a href="https://hackathon-hacked2023.github.io/DivineInspiration/">Website</a>
-              &nbsp<a href="https://github.com/Hackathon-Hacked2023/DivineInspiration">Github</a>
-              &nbsp<a href="https://devpost.com/software/toneteller">Devpost</a>
-              </p>
-
-      </div>
-      </div>
   <div class = "p1">
     <div class = "stickynotes2">
       <h2>Project 4 - Experimenter</h2>
@@ -114,6 +109,36 @@
   </section>
 </div>
   </div>
+
+    <div class = "p1">
+      <div class = "demo">
+      <section>
+        <div class="toolbar">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="container2">
+          <img src="img/p1.gif" alt="Avatar" style="width:100%">
+        </div>
+      </section>
+    </div>
+
+    <div class = "stickynotes">
+            <h2>Project 5 - Toneteller</h2>
+            <p>Toneteller is a web application and
+              chrome extension that uses machine learning
+              and artificial intelligence to perform sentiment
+              analysis on the text that a user has entered.<br>
+              <br>My team and I developed this project during
+              a hackathon where it was awarded second place.<br><br>
+              <a href="https://hackathon-hacked2023.github.io/DivineInspiration/">Website</a>
+              &nbsp<a href="https://github.com/Hackathon-Hacked2023/DivineInspiration">Github</a>
+              &nbsp<a href="https://devpost.com/software/toneteller">Devpost</a>
+              </p>
+
+      </div>
+      </div>
   <i class = "final">More <i class = "word4">projects</i> will be added soon! </i>
 </div>
 
@@ -207,6 +232,20 @@ p {
   box-shadow: 5px 5px 7px rgba(33,33,33,.7);
   transition: transform .15s linear;
   align-items: center;
+  color: black;
+}
+
+.stickynotes4{
+  text-decoration:none;
+  color:#000;
+  background:#ffc;
+  display:block;
+  height:48vh;
+  width:44vh;
+  padding:1em;
+  box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+  transform: rotate(-6deg);
+  transition: transform .15s linear;
   color: black;
 }
 

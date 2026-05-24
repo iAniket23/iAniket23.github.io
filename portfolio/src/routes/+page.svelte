@@ -12,7 +12,7 @@
     <Me/>
 </div>
 
-<div id = "skills">
+<div id = "experience">
     <Skills/>
 </div>
 
@@ -30,7 +30,7 @@
 
 <style>
     #home{
-        padding-top: 12vh;
+        padding-top: calc(12vh + 5rem);
         padding-bottom: 12vh;
     }
     #about{
@@ -41,7 +41,7 @@
         padding-top: 12vh;
         padding-bottom: 12vh;
     }
-    #skills{
+    #experience{
         padding-top: 12vh;
         padding-bottom: 12vh;
     }
