@@ -881,7 +881,7 @@ function create_fragment$2(ctx) {
       t27 = text("Total Life");
       t28 = space();
       span5 = element("span");
-      t29 = text("Mar 2025 – Present");
+      t29 = text("Jun 2025 – Present");
       t30 = space();
       ul1 = element("ul");
       li2 = element("li");
@@ -1169,7 +1169,7 @@ function create_fragment$2(ctx) {
       t28 = claim_space(div14_nodes);
       span5 = claim_element(div14_nodes, "SPAN", { class: true });
       var span5_nodes = children(span5);
-      t29 = claim_text(span5_nodes, "Mar 2025 – Present");
+      t29 = claim_text(span5_nodes, "Jun 2025 – Present");
       span5_nodes.forEach(detach);
       div14_nodes.forEach(detach);
       div15_nodes.forEach(detach);
