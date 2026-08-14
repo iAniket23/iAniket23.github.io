@@ -41,7 +41,7 @@
             <div class="noteMeta">
               <span class="noteRole">Software Engineer</span>
               <span class="noteCompany">Total Life</span>
-              <span class="noteDate">Mar 2025 – Present</span>
+              <span class="noteDate">Jun 2025 – Present</span>
             </div>
           </div>
           <ul class="noteBody">
