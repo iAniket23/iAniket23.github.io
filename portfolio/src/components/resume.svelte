@@ -1,3 +1,8 @@
+<script>
+  const PDF_URL = 'doc/resume.pdf';
+  const VIEWER = `pdfjs/web/viewer.html?file=${encodeURIComponent('../../' + PDF_URL)}#zoom=page-width`;
+</script>
+
 <main>
   <div class="container">
     <h1 class="first"><i class="word">Take</i><br>a look at my</h1>
@@ -5,16 +10,11 @@
   </div>
 
   <div class="viewer">
-    <object data="doc/resume.pdf#view=FitH" type="application/pdf" title="Aniket Mishra's resume">
-      <p class="fallback">
-        Your browser can't display PDFs inline.
-        <a href="doc/resume.pdf">Open the resume</a>.
-      </p>
-    </object>
+    <iframe src={VIEWER} title="Aniket Mishra's resume"></iframe>
   </div>
 
   <p class="actions">
-    <a href="doc/resume.pdf" download="Aniket_Mishra_Resume.pdf">Download PDF</a>
+    <a href={PDF_URL} download="Aniket_Mishra_Resume.pdf">Download PDF</a>
   </p>
 </main>
 
@@ -62,11 +62,12 @@
     margin: 3vh auto 0;
     padding: 0 4vw;
   }
-  object {
+  iframe {
     display: block;
     width: 100%;
     height: 85vh;
     min-height: 500px;
+    border: 0;
     background: white;
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
   }
