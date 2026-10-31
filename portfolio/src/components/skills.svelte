@@ -20,8 +20,8 @@
             </div>
           </div>
           <ul class="noteBody">
-            <li>Engineering challenges of moving complex ML research into stable, production-ready environments.</li>
-            <li>Working toward the AI Career Accelerator Accreditation, specializing in deployment and scaling of ML models.</li>
+            <li>Attending seminars on machine learning and current research, connecting with graduate students, professors, and others interested in ML.</li>
+            <li>Participating in personal development workshops focused on building professional and interpersonal skills.</li>
           </ul>
         </div>
       </div>
@@ -45,9 +45,8 @@
             </div>
           </div>
           <ul class="noteBody">
-            <li>Built a concurrent Go job queue with goroutines &amp; worker pools, improving patient data throughput by 25%.</li>
-            <li>Integrated HubSpot &amp; Stripe via custom middleware, reducing invoicing errors by 6.33%.</li>
-            <li>Architected a Pub/Sub messaging framework across SMS, email, Slack &amp; in-app, cutting manual handling by 31%.</li>
+            <li>Developed an asynchronous data processing engine in Go using goroutines, buffered channels, and worker pools to handle high-volume data streams.</li>
+            <li>Built a distributed messaging framework to coordinate data delivery across webhooks, external APIs, and notification systems, and automated data synchronization between cloud databases and CRM platforms.</li>
           </ul>
         </div>
       </div>
@@ -67,8 +66,8 @@
             </div>
           </div>
           <ul class="noteBody">
-            <li>Optimized C++ IMMDevice state management with multithreading, cutting frame processing time by 7.25%.</li>
-            <li>Designed a latent sync function for Meta Quest headsets, reducing multiplayer latency spikes by 20%.</li>
+            <li>Optimized low-level hardware state management and multithreaded C++ execution, eliminating a five-second frame stall and reducing average frame latency by 7%.</li>
+            <li>Refactored legacy code and improved automated testing to support maintainability and multi-client system stability.</li>
           </ul>
         </div>
       </div>
@@ -92,8 +91,9 @@
             </div>
           </div>
           <ul class="noteBody">
-            <li>Led four student teams through the full SDLC in a 400-level Software Processes &amp; Product Management course.</li>
-            <li>Guided cross-functional discussions blending design, technical, and PM perspectives.</li>
+            <li>Led lab sessions for CMPUT 301 (Introduction to Software Engineering), supporting students in software architecture, design patterns, testing, and refactoring through practical software development exercises.</li>
+            <li>Collaborated with course instructors and fellow teaching assistants to develop lab presentations and instructional materials, ensuring consistent delivery of course concepts and practical guidance.</li>
+            <li>Mentored four student teams in CMPUT 401 (Software Process and Product Management), guiding requirements gathering, MVP scoping, sprint planning, technical architecture, and client communication throughout the software development lifecycle.</li>
           </ul>
         </div>
       </div>
@@ -113,8 +113,8 @@
             </div>
           </div>
           <ul class="noteBody">
-            <li>Built a solar tracking feature computing irradiance from GPS coordinates and time for aerospace ground testing.</li>
-            <li>Automated Raspberry Pi + Apache setup via Bash, reducing a 30-min process to under 10 min.</li>
+            <li>Improved solar irradiance modelling by reviewing scientific literature to identify and implement a more accurate equation, incorporating geographic coordinates, elevation, and time-dependent solar positioning. Implemented multithreading to accelerate computationally intensive calculations.</li>
+            <li>Contributed to PICO, an LED-array-based solar simulator that reproduces sunlight conditions in laboratory environments, mapping physical LEDs to their software representations to enable programmatic control of the array.</li>
           </ul>
         </div>
       </div>
@@ -138,8 +138,8 @@
             </div>
           </div>
           <ul class="noteBody">
-            <li>Replaced REST polling with WebSockets for real-time sensor updates, cutting dashboard latency from 250ms to 150ms.</li>
-            <li>Used Datadog to track error patterns, reducing runtime issues by 16%.</li>
+            <li>Cleaned, processed, and analyzed continuously collected sensor data, addressing missing values, filtering noisy measurements, and identifying anomalies. Examined trends and relationships across measurements to assess reliability and prepare structured datasets for research and downstream applications.</li>
+            <li>Implemented real-time sensor data streaming using WebSockets and external APIs, reducing dashboard update latency from 250 ms to 150 ms.</li>
           </ul>
         </div>
       </div>
@@ -159,8 +159,8 @@
             </div>
           </div>
           <ul class="noteBody">
-            <li>Worked on AR software to project diagnostic images onto patient's skin.</li>
-            <li>Trained deep learning models in Google Colab for a social experiment using AR overlays.</li>
+            <li>Contributed to developing a mixed-reality application to project diagnostic images onto patients’ skin, helping visualize surgical sites and supporting medical education.</li>
+            <li>Trained deep learning models to generate personalized anti-addiction videos for a research study investigating the potential impact of tailored messaging on patient outcomes.</li>
           </ul>
         </div>
       </div>

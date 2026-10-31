@@ -20,9 +20,15 @@
 
   <div class = "stickynotes4">
     <h2>Project 1 - NotExo</h2>
-    <p>An open research initiative applying ML and data engineering to terabytes of publicly available data from space agencies (NASA, ISRO, CSA, ESA, JAXA).<br><br>
-      Covers exoplanet classification using Quantum SVM, solar wind analysis on Mars, and climate science, with custom pipelines to process and benchmark massive telescope datasets.<br><br>
-      Features a secure model-sharing format (.exo) that bundles a trained model, statistics, and RSA encryption.<br><br>
+    <p>An independent research initiative applying machine learning to open-access satellite data to advance planetary science and exoplanet research.</p>
+      <ul class="notexoList">
+        <li>Investigated whether NASA's MAVEN MAG and Tianwen-1 MOMAG measurements can be combined to extend data coverage for vSWIM's Gaussian Process Regression, while preserving the existing GPR implementation.</li>
+        <li>Aligned overlapping MAG and MOMAG measurements using Theil–Sen regression to establish a common measurement scale.</li>
+        <li>Developed a filtering pipeline to identify candidate upstream solar-wind observations using a Mars bow-shock model, temporal averaging, minimum observation counts, and magnetic-field variability thresholds.</li>
+        <li>Compared preliminary results with a MAVEN-only baseline, examining data coverage and model uncertainty. Identified potentially overconfident uncertainty estimates when MOMAG dominated the inputs, highlighting the need for further validation.</li>
+        <li>Developed an interactive visualizer for the vSWIM model to track solar wind predictions, satellite orbits, and model uncertainty across MAVEN data gaps.</li>
+      </ul>
+      <p><i>Python, Go, NumPy, SPICE Toolkit, Google Compute Engine, Scikit-Learn</i><br><br>
       <a href="https://notexo.earth">Website</a>
     </p>
   </div>
@@ -33,9 +39,10 @@
     <div class = "p1">
       <div class = "stickynotes3">
         <h2>Project 2 - FissionMunk</h2>
-        <p>FissionMunk is a lightweight 2D physics open source python library designed to simulate nuclear fission reactor mechanics.<br><br>
-          It enables users to visualize interactions between neutrons and uranium atoms, providing valuable insights into fission
-          dynamics with customizable parameters, such as neutron occurrence probabilities, moderators, and control rods.
+        <p>An open-source Python library for two-dimensional nuclear fission simulations, built on Pymunk to provide reusable components for learning about nuclear reactor systems.<br><br>
+          Built after researching nuclear fission and reactor operation, including neutron behavior, moderators, control rods, and coolant systems, to guide the development of an educational simulation.<br><br>
+          Streams simulation states as JSON over WebSockets in real time, so external interfaces can visualize reactor behavior as the simulation runs. Demonstrated at DemoCamp.<br><br>
+          <i>Python, Pymunk, NumPy, pytest, PyPI, Poetry, GitHub Actions</i>
          <br><br>
           <a href="https://github.com/iAniket23/FissionMunk">Github</a>
           &nbsp<a href="https://pypi.org/project/fissionmunk/">PyPI</a>
@@ -126,12 +133,8 @@
 
     <div class = "stickynotes">
             <h2>Project 5 - Toneteller</h2>
-            <p>Toneteller is a web application and
-              chrome extension that uses machine learning
-              and artificial intelligence to perform sentiment
-              analysis on the text that a user has entered.<br>
-              <br>My team and I developed this project during
-              a hackathon where it was awarded second place.<br><br>
+            <p>A real-time sentiment analysis application built with a RoBERTa model to help computer science students interpret the emotions and tone expressed in text.<br><br>
+            Awarded second place at HackED 2023 (University of Alberta) and later demonstrated at DemoCamp to students and industry professionals.<br><br>
               <a href="https://hackathon-hacked2023.github.io/DivineInspiration/">Website</a>
               &nbsp<a href="https://github.com/Hackathon-Hacked2023/DivineInspiration">Github</a>
               &nbsp<a href="https://devpost.com/software/toneteller">Devpost</a>
@@ -176,6 +179,11 @@ h2 {
 p {
   font-size: 2vh;
 }
+.notexoList {
+  font-size: 2vh;
+  padding-left: 1.2em;
+  margin: 0;
+}
 .stickynotes{
   text-decoration:none;
   color:#000;
@@ -184,7 +192,7 @@ p {
   flex-wrap: wrap;
   justify-content: center;
   display:block;
-  height:40vh;
+  min-height:40vh;
   width:38vh;
   padding:1em;
   box-shadow: 5px 5px 7px rgba(33,33,33,.7);
@@ -201,7 +209,7 @@ p {
   flex-wrap: wrap;
   justify-content: center;
   display:block;
-  height:40vh;
+  min-height:40vh;
   width:38vh;
   transform:rotate(4deg);
   position:relative;
@@ -221,7 +229,7 @@ p {
   flex-wrap: wrap;
   justify-content: center;
   display:block;
-  height:44vh;
+  min-height:44vh;
   width:38vh;
   transform:rotate(4deg);
   position:relative;
@@ -240,7 +248,7 @@ p {
   color:#000;
   background:#ffc;
   display:block;
-  height:48vh;
+  min-height:48vh;
   width:44vh;
   padding:1em;
   box-shadow: 5px 5px 7px rgba(33,33,33,.7);

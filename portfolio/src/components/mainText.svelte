@@ -50,12 +50,10 @@
   animation: third 6s linear infinite;
 }
 @keyframes third {
-  0% { content:"Full-Stack Developer";}
-  20% { content: "Web Developer"; }
-  40% { content: "Entrepreneur"; }
-  60% { content: "AI/ML Engineer"; }
-  80% { content: "Software Engineer"; }
-  100% { content: "Full-Stack Developer"; }
+  0% { content: "Entrepreneur"; }
+  33% { content: "AI/ML Engineer"; }
+  66% { content: "Software Engineer"; }
+  100% { content: "Entrepreneur"; }
 }
 /* The typing effect */
 @keyframes typing {

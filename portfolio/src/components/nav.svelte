@@ -25,7 +25,7 @@
             <!-- svelte-ignore a11y-invalid-attribute -->
             <a href="javascript:void(0)" on:click={() => scrollToSection('contact')}>Contact</a>
             <!-- svelte-ignore a11y-invalid-attribute -->
-            <a href="https://drive.google.com/file/d/1LYXNtI2isr7biowO33USja0-GxOahr7Y/view?usp=sharing">Resume</a>
+            <a href="javascript:void(0)" on:click={() => scrollToSection('resume')}>Resume</a>
             <!-- svelte-ignore a11y-invalid-attribute -->
             <a href="https://www.linkedin.com/in/ianiket23">LinkedIn</a>
             <!-- svelte-ignore a11y-invalid-attribute -->
