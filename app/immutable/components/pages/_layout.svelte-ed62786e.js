@@ -144,7 +144,7 @@ function create_fragment$2(ctx) {
       attr(a3, "class", "svelte-3hugs8");
       attr(a4, "href", "javascript:void(0)");
       attr(a4, "class", "svelte-3hugs8");
-      attr(a5, "href", "https://drive.google.com/file/d/1LYXNtI2isr7biowO33USja0-GxOahr7Y/view?usp=sharing");
+      attr(a5, "href", "javascript:void(0)");
       attr(a5, "class", "svelte-3hugs8");
       attr(a6, "href", "https://www.linkedin.com/in/ianiket23");
       attr(a6, "class", "svelte-3hugs8");
@@ -217,6 +217,12 @@ function create_fragment$2(ctx) {
             "click",
             /*click_handler_4*/
             ctx[4]
+          ),
+          listen(
+            a5,
+            "click",
+            /*click_handler_5*/
+            ctx[5]
           )
         ];
         mounted = true;
@@ -248,12 +254,14 @@ function instance$1($$self) {
   const click_handler_2 = () => scrollToSection("experience");
   const click_handler_3 = () => scrollToSection("projects");
   const click_handler_4 = () => scrollToSection("contact");
+  const click_handler_5 = () => scrollToSection("resume");
   return [
     click_handler,
     click_handler_1,
     click_handler_2,
     click_handler_3,
-    click_handler_4
+    click_handler_4,
+    click_handler_5
   ];
 }
 class Nav extends SvelteComponent {
